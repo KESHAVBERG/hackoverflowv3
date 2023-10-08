@@ -8,7 +8,6 @@ const MediaLinks = () => {
     <div className='media'>
       <a href='mailto:hackoverflow@rajalakshmi.edu.in'><FaRegEnvelope/></a>
       <a href='https://instagram.com/hackoverflow_rec?igshid=MzRlODBiNWFlZA=='><FaInstagram /></a>
-      <a href='www.google.com'><FaDiscord /></a>
     </div>
     </>
   )

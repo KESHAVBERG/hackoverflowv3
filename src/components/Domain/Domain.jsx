@@ -9,10 +9,10 @@ import rpa from '../../images/domains/uipath_rpa.png'
 
 
 import './Domain.css'
-// import { Button } from 'react-bootstrap/Button'
+
 const Domain = () => {
   return (
-    <div className='domain-wrapper'>
+    <div className='domain-wrapper' id='domains'>
       <h2 className='section-title'>Domains</h2>
         <div class="wrapper">
         <div class="card-container">
