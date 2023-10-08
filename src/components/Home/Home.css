@@ -60,7 +60,7 @@
     min-width: 25%;
     max-width: fit-content;
     text-align: center;
-    margin: auto;
+    margin: 2rem auto;
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -69,6 +69,24 @@
     box-shadow:  0 0 5px #b700ff,0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff;
     animation: see-more 2s linear infinite;
 }
+
+.prize
+{
+    display: flex;
+    justify-content: center;
+}
+.prize-card
+{
+    width: 20%;
+    margin: 1.25rem;
+    color: white;
+    background-color: rgb(24, 22, 22);
+    border-radius: 1.25rem;
+    padding: 2%;
+
+}
+
+
 @keyframes see-more {
     0%{
         transform: scale(1.0);
