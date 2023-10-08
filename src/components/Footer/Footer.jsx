@@ -25,9 +25,9 @@ function Footer(){
         <div className="col-lg-3 col-md-6">
           <h3 style={{marginBottom:"0.5em"}}>Contact Us</h3>
             <ul style={{lineHeight:"2"}}>
-            <li><a href='tel:9876543210'>Keerthana - 9876543210 </a></li>
-              <li><a href='tel:9876543210'>Mustafa - 9876543210 </a></li>
-              <li><a href='tel:9876543210'>Subhash - 9876543210 </a></li>
+            <li><a href='tel:9123588688'>Keerthana - 9123588688 </a></li>
+              <li><a href='tel:9962338185'>Mustafa - 9962338185 </a></li>
+              <li><a href='tel:9940415364'>Subhash - 9940415364 </a></li>
               <li><a href='tel:9876543210'>Suriya Prakash - 9876543210 </a></li>
             </ul>
             

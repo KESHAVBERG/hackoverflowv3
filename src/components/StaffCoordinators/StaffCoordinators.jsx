@@ -33,7 +33,7 @@ function StaffCoorinators(){
    },[])
 
     return (
-        <div className="organizers-container" id="organizers">
+        <div className="organizers-container" id="organisers">
             <h2 className='section-title'>Staff Coordinators</h2>
             <div className="organizers-main-wrapper">
                 <div className="org-icon" id='left'><FaAngleLeft /></div>
