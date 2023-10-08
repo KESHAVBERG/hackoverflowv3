@@ -2,17 +2,20 @@ export const members = [
     {
         index : 3,
         name : "Keerthana",
-        year : "IV"
+        year : "IV",
+        insta : "https://www.instagram.com/keerthana391/"
     },
     {
         index : 1,
         name : "Mustafa",
         year : "IV",
+        insta : "https://www.instagram.com/legend_king1_/"
     },
     {
         index : 2,
         name : "Subhash",
-        year : "IV"
+        year : "IV",
+        insta : "https://www.instagram.com/subze23/"
     },    
     {
         index : 4,
@@ -22,7 +25,8 @@ export const members = [
     {
         index : 5 ,
         name : "Joshua",
-        year : "IV"
+        year : "IV",
+        insta : " https://www.instagram.com/joshua.david_/"
     }
 ]
 
@@ -48,7 +52,8 @@ export const design = [
     {
         index : 1,
         name : "Purushotaman",
-        year : "III"
+        year : "III",
+        insta : "https://instagram.com/purushoth_uzumaki?igshid=MzNlNGNkZWQ4Mg=="
     },
     {
         index : 2 ,
@@ -58,12 +63,14 @@ export const design = [
     {
         index : 3 ,
         name : "Sneha KSJ",
-        year : "III"
+        year : "III",
+        insta : "https://instagram.com/snehaksj?igshid=MzMyNGUyNmU2YQ=="
     },
     {
         index : 4 ,
         name : "Jeciyazhini",
-        year : "III"
+        year : "III",
+        insta : "https://instagram.com/jeciyazhini_jeyakumar?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
     }
 ]
 

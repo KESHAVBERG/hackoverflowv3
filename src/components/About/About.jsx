@@ -1,7 +1,6 @@
 import './About.css'
 import recLogo from '../../images/rec-circle.png'
 import hackLogo from '../../images/hack-circle.png'
-import TypeWriter from './TypeWriter';
 
 function About(){
     return (
@@ -15,9 +14,7 @@ function About(){
                             <img src={recLogo} alt='clg-logo' height={75} width={75} />
                             <h1 className='abt-title'>About College</h1>
                         </div>
-                        {/* <TypeWriter
-                        text=""
-                        /> */}
+                        
                         <p>Rajalakshmi Engineering College, an autonomous institution affiliated with Anna University, Chennai, was established in 1997 and has been producing out high-quality professionals ever since. REC has aided thousands of students in landing their dream careers and becoming professionals in their fields.</p>
                         
                         <hr className='abt-hr' />
@@ -26,9 +23,7 @@ function About(){
                             <h1 className='abt-title'>About Hackoverflow</h1>
                         </div>
                         
-                        {/* <TypeWriter
-                        text=""
-                        />   */}
+                    
                         <p>Get ready to dive into the world of innovation and creativity at Hackoverflow 3.0. Since its inception in 2020, this event has been the platform for creativity, and now it's back for the third time, bigger and better than ever. This is a 24-hour intense development and innovation contest where participants are challenged with real-world problem statements on the spot. The event encourages participants to form teams and collaboratively brainstorm, design, develop, and present a solution from start to finish within the 24-hour timeframe, all for a chance to win exciting prizes. So bring your A-game, build a dream team, and prepare to hack, hustle, and innovate your way.</p>
                     </div>    
                 </div>

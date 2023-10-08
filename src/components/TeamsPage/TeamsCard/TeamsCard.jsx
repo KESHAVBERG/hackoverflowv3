@@ -19,7 +19,7 @@ const TeamsCard = (props) => {
             </div>
             <h5 className="carousel-item__details--title">{props.name}</h5>
             <h6 className="carousel-item__details--subtitle">{props.year} year CSE</h6>
-            <FaInstagram></FaInstagram>
+            <a href={props?.insta}><FaInstagram></FaInstagram></a>
           </div>
         </div>
     </>
