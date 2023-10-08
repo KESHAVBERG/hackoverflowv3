@@ -1,7 +1,8 @@
 .title {
-    color: rgb(77, 55, 102);
+    /* color: rgb(77, 55, 102); */
     font-size: 28px;
     text-align: center;
+    text-shadow: 0 0 10px #b700ff, 0 0 20px #b700ff, 0 0 40px #b700ff, 0 0 80px #b700ff, 0 0 120px #b700ff;
 }
 .carousel {
     width: 90%;
