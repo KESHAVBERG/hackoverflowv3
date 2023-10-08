@@ -44,7 +44,8 @@ export const web = [
     {
         index : 3 ,
         name : "Sangeetha G",
-        year : "III"
+        year : "III",
+        insta : "https://instagram.com/sangeethag277?igshid=OGQ5ZDc2ODk2ZA=="
     }
 ]
 

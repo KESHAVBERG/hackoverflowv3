@@ -4,7 +4,7 @@
 }
 .home-container{
     position: relative;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 .home-particles{
     position: absolute;
@@ -112,5 +112,10 @@
     }
     .home-content .hackoverflow-logo{
         width: 90vw;
+    }
+}
+@media screen and (max-width : 380px) {
+    .home-container{
+        min-height: 80vh;
     }
 }
