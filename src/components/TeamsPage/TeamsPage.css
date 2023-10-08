@@ -1,0 +1,14 @@
+.title {
+    color: rgb(77, 55, 102);
+    font-size: 28px;
+    text-align: center;
+}
+.carousel {
+    width: 90%;
+    padding: 30px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+  

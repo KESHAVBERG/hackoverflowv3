@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'AudioWideRegular';
+    src: url('../../assets/Audiowide-Regular.ttf');
+}
+.home-container{
+    position: relative;
+    min-height: 100vh;
+}
+.home-particles{
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 100vh;
+}
+.home-content{
+    position: absolute;
+    top:8%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+.home-content .rec-logo{
+    width: 20vw;
+}
+.home-content h1{
+    margin: 0.5em 0;
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 0.25rem;
+    font-family: 'AudioWideRegular';
+}
+
+.home-content .rec-logo{
+    width: 20vw;
+}
+.home-content h1{
+    margin: 0.5em 0;
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 0.25rem;
+    font-family: 'AudioWideRegular';
+}
+.home-content p{
+    font-size: 1.75rem;
+    margin-bottom: 0em;
+    font-style: italic;
+}
+.home-content .hackoverflow-logo{
+    width: 50vw;
+    height: 125px;
+    object-fit: cover;
+}
+.register-btn{
+    padding: 12px 30px;
+    border: 1px solid white;
+    color: transparent;
+    min-width: 25%;
+    max-width: fit-content;
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.35em;
+    background-color: transparent;
+    box-shadow:  0 0 5px #b700ff,0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff;
+    animation: see-more 2s linear infinite;
+}
+@keyframes see-more {
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+
+@media screen and (max-width:1250px){
+    .home-content{
+        width: 94vw;
+    }
+    .home-content h1{
+        font-size: 2.4rem;
+    }
+}
+@media screen and (max-width:1000px){
+    .home-content .rec-logo{
+        width: 32vw;
+    }
+}
+@media screen and (max-width:800px){
+    .home-content h1{
+        font-size: 2rem;
+    }
+    .home-content p{
+        font-size: 1.5rem;
+    }
+    .home-content .hackoverflow-logo{
+        height: 100px;
+        width: 70vw;
+    }
+}
+@media screen and (max-width:500px){
+    .home-content .rec-logo{
+        width: 50vw;
+    }
+    .home-content .hackoverflow-logo{
+        width: 90vw;
+    }
+}

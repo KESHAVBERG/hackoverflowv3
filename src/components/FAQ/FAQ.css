@@ -1,0 +1,51 @@
+.section-title{
+    color:white;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0.85em 0;
+    margin-bottom: 0;
+    letter-spacing: 0.08em;
+    text-shadow:  0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff,0 0 80px #b700ff,0 0 120px rgb(183, 0, 255);
+}
+.accordion button.accordion-button{
+    --bs-accordion-active-color: white;
+    --bs-accordion-active-bg: black;
+    --bs-accordion-btn-box-shadow:0 0 0 0.1rem white;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.1rem white;
+}
+#FAQ
+{
+    width: 84%;
+    margin: 3rem auto;
+    color: white;
+    background-color: black;
+    border-radius: 16px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    margin-bottom: 4rem;
+}
+button.accordion-button{
+    color: white;
+    background-color: black;
+}
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+.accordion-item{
+    border:1.5px solid white;
+}
+.accordion-body{
+    color: white;
+    background-color: black;
+}
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color:black;
+    outline: none;
+    border: none;
+}
+@media screen and (max-width:400px){
+    #FAQ{
+        width: 94%;
+    }
+}
