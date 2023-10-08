@@ -9,7 +9,7 @@ const TeamsCard = (props) => {
         <div className="carousel_item">
           <img
             className="carousel-item__img"
-            src={require(`../../../images/teams/member${props.index}.webp`)}
+            src={require(`../../../images/teams/${props.class}/member${props.index}.webp`)}
             alt="member"
           />
           <div className="carousel-item__details">
