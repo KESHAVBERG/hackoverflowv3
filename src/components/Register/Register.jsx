@@ -3,11 +3,9 @@ import './Register.css'
 export const Register = () => {
   return (
     <>
-    {/* <ParticleBackground/> */}
-    {/* <div id='text'><h1>Register</h1></div> */}
     <div className='register-page flick'>
       <h3>About Hackoverflow:</h3>
-      <p className='about-event'>Get ready to dive into the world of innovation and creativity at Hackoverflow 3.0. Since its inception in 2020, this event has been the platform for creativity, and now it's back for the third time, bigger and better than ever. This is a 24-hour intense development and innovation contest where participants are challenged with real-world problem statements on the spot. The event encourages participants to form teams and collaboratively brainstorm, design, develop, and present a solution from start to finish within the 24-hour timeframe, all for a chance to win exciting prizes. So bring your A-game, build a dream team, and prepare to hack, hustle, and innovate your way.</p>
+      <p className='about-event'>"Dive into innovation at Hackoverflow 3.0! Since 2020, it's been the platform for creativity, and now it's back for the third time, bigger and better. This 24-hour event challenges you with real-world problems, so bring your A-game, build a dream team, and hack, hustle, and innovate your way to victory!".</p>
       <h3>Guidelines Of HackOverflow : </h3>
      
       <ol>
