@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './TeamsPage.css'
 import TeamsCard from './TeamsCard/TeamsCard'
-import { content, design, members, promo, web } from '../../data/Teams'
+import { content, design, promo, web } from '../../data/Teams'
 export const TeamsPage = () => {
 
   useEffect(()=>{
@@ -22,7 +22,7 @@ export const TeamsPage = () => {
     <div className="background-texture"></div>
 
     <section className="carousel">
-      <h2 className="title"  id='members'>Members</h2>
+      <h2 className="title big-title"  id='members'>Members</h2>
       <div className="carousel__container">
       {/* {
         members.map((member)=> {
