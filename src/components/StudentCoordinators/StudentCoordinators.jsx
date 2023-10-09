@@ -4,6 +4,8 @@ import suriya from '../../images/organizers/suriya.jpg'
 import subash from '../../images/organizers/subash.jpg'
 import joshua from '../../images/organizers/joshua.jpg'
 import keerthana from '../../images/organizers/keerthana.jpg'
+import keshav from '../../images/teams/content/member1.webp'
+
 import VanillaTilt from 'vanilla-tilt'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
@@ -84,11 +86,11 @@ function StudentCoorinators(){
                         </div>
                     </div>
                     <div className="coordinator">
-                        <img src={keerthana} alt="" />
+                        <img src={keshav} alt="" />
                         <div className="coordinator-info">
-                            <h2>Keerthana</h2>
+                            <h2>keshav</h2>
                             <p className="position">
-                                AIML Enthusiast
+                                Developer
                             </p>
                         </div>
                     </div>
