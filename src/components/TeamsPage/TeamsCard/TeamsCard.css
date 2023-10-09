@@ -16,8 +16,8 @@
   width: 20px;
 }
 .carousel_item {
-  width: 200px;
-  height: 250px;
+  width: 210px;
+  height: 300px;
   border-radius: 20px;
   background-color: #95bcd6;
   overflow: hidden;
@@ -52,8 +52,8 @@
 }
 
 .carousel-item__img {
-  width: 200px;
-  height: 250px;
+  width: 210px;
+  height: 300px;
   -o-object-fit: cover;
   object-fit: cover;
 }

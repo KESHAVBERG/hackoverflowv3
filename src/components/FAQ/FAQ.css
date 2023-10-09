@@ -37,6 +37,7 @@ button.accordion-button{
 .accordion-body{
     color: white;
     background-color: black;
+    --bs-accordion-body-padding-x:2.6rem;
 }
 .accordion-button:not(.collapsed) {
     color: white;
