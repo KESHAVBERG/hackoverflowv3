@@ -9,10 +9,10 @@ import rpa from '../../images/domains/uipath_rpa.png'
 
 
 import './Domain.css'
-// import { Button } from 'react-bootstrap/Button'
+
 const Domain = () => {
   return (
-    <div className='domain-wrapper'>
+    <div className='domain-wrapper' id='domains'>
       <h2 className='section-title'>Domains</h2>
         <div class="wrapper">
         <div class="card-container">
@@ -33,7 +33,7 @@ const Domain = () => {
             <div class="descriptions">
                 
                 <p>
-                Step into a new dimension with AR and VR! This cutting edge technology is used to blend the physical and digital world. AR enhances your reality while VR immerses you in entirely new worlds. They revolutionize education, healthcare, and entertainment, transforming problems into immersive, engaging experiences.                
+                Step into a new dimension with AR and VR! This cutting-edge technology is used to blend the physical and digital worlds. AR enhances your reality while VR immerses you in entirely new worlds. They revolutionize education, healthcare, and entertainment, transforming problems into immersive, engaging experiences.                
                 </p>
                 <p style={{color:"#fff600"}}>*Requested to bring your own equipments</p>
                 
@@ -63,11 +63,11 @@ const Domain = () => {
         </div>
         <div class="card-container">
             <img src={web} alt=''/>
-            <h2>Web Development with security</h2>
+            <h2>Secure application Development</h2>
             <button type="button">Know more</button>
             <div class="descriptions">
                 <p>
-                Web development: where creativity meets cybersecurity. Building stunning websites demands more than just code - it demands an ironclad shield against cyber threats. Secure coding, encryption, and updates are our tools to protect your data and keep the website safe.      
+                  Apps That Stand Strong: Where Safety Meets Seamless Functionality! Building stunning apps demands more than just code – an ironclad shield against cyber threats. Secure coding, encryption, and updates are our tools to protect your data and keep the application safe.             
                 </p>
                 
             </div>

@@ -4,7 +4,7 @@ nav.navbar{
     width: 100% ;
     z-index: 9999;
     --bs-nav-link-hover-color : white;
-    --bs-navbar-active-color : white ;
+    --bs-navbar-active-color: #b700ff;
     --bs-navbar-hover-color : #b700ff;
     background-color: rgba(0,0,0,0.3);
 }

@@ -1,9 +1,17 @@
+@font-face {
+    font-family: 'Autour One';
+    src: url('../../assets/AutourOne-Regular.ttf');
+}
+
+    
+    
 .timer-container{
+    font-family:'Autour One';
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 3em 0;
+    margin: 1em 0;
     align-items: center;
     gap: 2em;
 }

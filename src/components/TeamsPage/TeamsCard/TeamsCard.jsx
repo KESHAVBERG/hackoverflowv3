@@ -9,7 +9,7 @@ const TeamsCard = (props) => {
         <div className="carousel_item">
           <img
             className="carousel-item__img"
-            src={require(`../../../images/teams/member${props.index}.webp`)}
+            src={require(`../../../images/teams/${props.class}/member${props.index}.webp`)}
             alt="member"
           />
           <div className="carousel-item__details">
@@ -19,7 +19,7 @@ const TeamsCard = (props) => {
             </div>
             <h5 className="carousel-item__details--title">{props.name}</h5>
             <h6 className="carousel-item__details--subtitle">{props.year} year CSE</h6>
-            <FaInstagram></FaInstagram>
+            <a href={props?.insta}><FaInstagram></FaInstagram></a>
           </div>
         </div>
     </>

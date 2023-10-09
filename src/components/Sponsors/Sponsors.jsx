@@ -1,53 +1,26 @@
 import React from 'react'
 import './Sponsors.css'
 const Sponsors = () => {
+  const num = [1,2,3,4,5,6]
   return (
     <div id='sponsors' className='sponsor-container'>
       <h2 className='section-title'>Sponsors</h2>
       <div class="slider">
         <div class="slide-track">
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo1.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo2.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo3.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo4.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/uipath.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo1.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo2.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo3.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo4.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/uipath.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo1.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo2.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo3.png')} height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src={require('../../images/sponsors/logo4.png')} height="100" width="250" alt="" />
-          </div>
+          {
+            num.map((n)=>{
+              return <div class="slide">
+              <img src={require(`../../images/sponsors/logo${n}.png`)} height="100" width="250" alt="" />
+            </div>
+            })
+          }
+          {
+            num.map((n)=>{
+              return <div class="slide">
+              <img src={require(`../../images/sponsors/logo${n}.png`)} height="100" width="250" alt="" />
+            </div>
+            })
+          }
         </div>
       </div>
     </div>
