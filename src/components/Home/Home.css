@@ -74,6 +74,15 @@
 {
     display: flex;
     justify-content: center;
+    gap: 20px;
+    font-size: .75rem;
+    margin-top: 1.25rem;
+}
+.prize p
+{
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: bolder;
 }
 .prize-card
 {
@@ -83,7 +92,11 @@
     background-color: rgb(24, 22, 22);
     border-radius: 1.25rem;
     padding: 2%;
-
+}
+.prize img
+{
+    width: 100px;
+    height: 100px;
 }
 
 

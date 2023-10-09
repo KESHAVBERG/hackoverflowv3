@@ -3,7 +3,9 @@ import Timer from '../Timer/Timer';
 import logo from '../../images/logo.png'
 import rec from '../../images/rec_logo.png'
 import { Link } from 'react-router-dom';
- 
+import prize1 from '../../images/prize1.png'
+import prize2 from '../../images/prize2.png'
+import prize3 from '../../images/prize3.png'
 function Home(){
     return (
         <div className="home-container" id='home'>
@@ -13,7 +15,7 @@ function Home(){
                 <p>proudly presents</p>
                 <img src={logo} alt="" className='hackoverflow-logo'/>
                 <div className='prize'>
-                    <div className='prize-card'>
+                    {/* <div className='prize-card'>
                         <h2>1</h2>
                         <p>₹ 10,000</p>
                     </div>
@@ -24,7 +26,21 @@ function Home(){
                     <div className='prize-card'>
                         <h2>3</h2>
                         <p>₹ 5,000</p>
+                    </div> */}
+                    
+                    <div>
+                        <img src={prize1}></img>
+                        <p>₹ 10,000</p>
                     </div>
+                    <div>
+                        <img src={prize2}></img>
+                        <p>₹ 7,000</p>
+                    </div>
+                    <div>
+                        <img src={prize3}></img>
+                        <p>₹ 5,000</p>
+                    </div>
+                    
                 </div>
                 <Timer />
                 <Link to={'/register'} style={{textDecoration:'none'}}>
