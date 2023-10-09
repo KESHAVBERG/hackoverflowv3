@@ -17,6 +17,11 @@
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+    filter: brightness(70%);
+}
+.gallery-grid-wrapper > div > img:hover , .gallery-grid-wrapper > div > img:active{
+    /* opacity: 0.3; */
+    filter: brightness(100%);
 }
 .gallery-grid-wrapper{
     display: grid;
