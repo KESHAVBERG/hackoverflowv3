@@ -3,8 +3,8 @@ import game from '../../images/domains/GAME.png'
 import block from '../../images/domains/block chain.png'
 import ai from '../../images/domains/AI.png'
 import ar from '../../images/domains/AR VR.png'
-import web from '../../images/domains/Asset 1.png'
-import surprise from '../../images/domains/surprise domain.png'
+import web from '../../images/domains/web_secure.jpg'
+import surprise from '../../images/domains/secret 2.jpg'
 import rpa from '../../images/domains/uipath_rpa.png'
 
 
