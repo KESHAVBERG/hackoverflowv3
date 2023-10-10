@@ -10,13 +10,14 @@ export const FAQ = () => {
       <Accordion.Item eventKey="0">
         <Accordion.Header>1. What are the prizes?</Accordion.Header>
         <Accordion.Body>
-          Awards are presented across two distinct categories: inter-college and intra-college. First Prize - Rs. 25K, Second Prize - Rs. 15K, Third Prize - Rs. 10K
+        Awards are presented across two distinct categories: inter-college and intra-college.
+        First Prize - Rs. 20K, Second Prize - Rs. 10K, Third Prize - Rs. 7.5K
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>2. Is registration free?</Accordion.Header>
+        <Accordion.Header>2. What is the registration fee?</Accordion.Header>
         <Accordion.Body>
-        The registration is Rs. 300 for each member of the team.
+        The registration fee is Rs. 300 for each member of the team.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
@@ -34,13 +35,13 @@ export const FAQ = () => {
       <Accordion.Item eventKey="4">
         <Accordion.Header>5. Are there any accommodation fees ?</Accordion.Header>
         <Accordion.Body>
-        No, there are no accommodation fees. There is only a one time entry fee to be paid.
+        No, there are no accommodation fees. There is only a one time registration fee to be paid.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="5">
         <Accordion.Header>6. What do I do if a member of my team is absent ?</Accordion.Header>
         <Accordion.Body>
-        All members of the team must be present on the day of the event. Else they would be disqualified. 
+        All members of the team must be present on the day of the event. Else the team would be disqualified. 
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="6">
@@ -52,7 +53,7 @@ export const FAQ = () => {
       <Accordion.Item eventKey="7">
         <Accordion.Header>8. Will we be provided with refreshments ?</Accordion.Header>
         <Accordion.Body>
-        Participants attending the workshops will be provided with refreshments.
+        Participants attending the hackathon will be provided with food and refreshments.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="8">
@@ -76,34 +77,23 @@ export const FAQ = () => {
       <Accordion.Item eventKey="11">
         <Accordion.Header>12. Are premade products allowed?</Accordion.Header>
         <Accordion.Body>
-        No pre-made products are allowed. The problem statement will be given on the day of the event and they will be given 24 hours to develop a solution from scratch.
+        No pre-made products are not allowed. The problem statement will be given on the day of the event and they will be given 24 hours to develop a solution from scratch.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="12">
         <Accordion.Header>13. What are the tracks available?</Accordion.Header>
         <Accordion.Body>
-        There are 5 domains and one surprise event. The problem statement for each domain will be revealed on the day of the competition.
+        There are 6 domains and one surprise domain. The problem statement for each domain will be revealed on the day of the competition.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="13">
-        <Accordion.Header>14. Do we need to bring our laptops for attending particular events?
+        <Accordion.Header>14. Will there be certificates for the participants?
       </Accordion.Header>
         <Accordion.Body>
-        Yes, you will be required to bring your own laptops.
+        The teams selected for the finals will be given physical certificates and goodies. For other teams E-Certificates would be provided.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="14">
-        <Accordion.Header>15. What will be the duration of the event?</Accordion.Header>
-        <Accordion.Body>
-        This event will be a 24 hour hackathon.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="15">
-        <Accordion.Header>16. Will there be certificates for the participants?</Accordion.Header>
-        <Accordion.Body>
-        The Physical certificate will be provided for event winners and for the final.
-        </Accordion.Body>
-      </Accordion.Item>
+      
     </Accordion>
         </section>
     </div>
