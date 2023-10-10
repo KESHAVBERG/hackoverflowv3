@@ -18,7 +18,7 @@
 .carousel_item {
   width: 210px;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 12px;
   background-color: #95bcd6;
   overflow: hidden;
   margin-right: 10px;
@@ -30,7 +30,7 @@
   -webkit-transform-origin: center left;
   transform-origin: center left;
   position: relative;
-  margin: 2rem;
+  margin: 2.5rem 1rem;
 }
 .carousel_item:hover{
   transform: scale(1.1);

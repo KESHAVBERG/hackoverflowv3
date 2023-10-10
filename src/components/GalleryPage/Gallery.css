@@ -44,6 +44,7 @@
 .gallery-container{
     max-width: 90%;
     margin: 2em auto;
+    margin-bottom: 1em;
 }
 .gallery-container .section-title{
     color: white;
@@ -53,6 +54,23 @@
     margin: 1em 0;
     letter-spacing: 0.08em;
     text-shadow: 0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff,0 0 80px #b700ff,0 0 120px #b700ff;
+}
+a{
+    text-decoration: none;
+}
+.see-more-gallery{
+    margin-left: auto;
+    margin-right: 12px;
+    max-width: fit-content;
+    padding: 12px 26px;
+    margin-top:1em;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.right-arrow-gallery{
+    margin-left: 6px;
 }
 
 @media screen and (max-width:1000px){

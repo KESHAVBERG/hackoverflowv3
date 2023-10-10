@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sponsors.css'
 const Sponsors = () => {
-  const num = [1,2,3,4,5,6]
+  const num = [1,2,3,4,5,6,7]
   return (
     <div id='sponsors' className='sponsor-container'>
       <h2 className='section-title'>Sponsors</h2>

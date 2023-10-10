@@ -5,6 +5,7 @@ import ParticleBackground from '../Particles/ParticlesBackground'
 import HomePage from './HomePage'
 import Register from '../Register/Register'
 import TeamsPage from '../TeamsPage/TeamsPage'
+import GalleryPage from '../GalleryPage/GalleryPage'
 
 const PostLoader = () => {
 
@@ -17,6 +18,8 @@ const PostLoader = () => {
         <Route path='/register' element={<Register />}/>
 
         <Route path='/teams' element={<TeamsPage/>}/>
+
+        <Route path='/gallery' element={<GalleryPage/>}/>
           
     </Routes>
     <Footer/>
