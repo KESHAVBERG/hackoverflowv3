@@ -15,30 +15,17 @@ function Home(){
                 <p>proudly presents</p>
                 <img src={logo} alt="" className='hackoverflow-logo'/>
                 <div className='prize'>
-                    {/* <div className='prize-card'>
-                        <h2>1</h2>
-                        <p>₹ 10,000</p>
-                    </div>
-                    <div className='prize-card'>
-                        <h2>2</h2>
-                        <p>₹ 7,000</p>
-                    </div>
-                    <div className='prize-card'>
-                        <h2>3</h2>
-                        <p>₹ 5,000</p>
-                    </div> */}
-                    
                     <div>
                         <img src={prize1}></img>
-                        <p>₹ 10,000</p>
+                        <p>₹ 20,000</p>
                     </div>
                     <div>
                         <img src={prize2}></img>
-                        <p>₹ 7,000</p>
+                        <p>₹ 10,000</p>
                     </div>
                     <div>
                         <img src={prize3}></img>
-                        <p>₹ 5,000</p>
+                        <p>₹ 7,500</p>
                     </div>
                     
                 </div>
@@ -47,7 +34,8 @@ function Home(){
                     <div className="register-btn">
                         Register
                     </div>
-                </Link>            </div>
+                </Link>            
+                </div>
         </div>
     )
 }
