@@ -6,18 +6,19 @@ import ar from '../../images/domains/AR VR.png'
 import web from '../../images/domains/web_secure.jpg'
 import surprise from '../../images/domains/secret 2.jpg'
 import rpa from '../../images/domains/uipath_rpa.png'
-// import AOS from 'aos'
-// import 'aos/dist/aos.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import './Domain.css'
 
 const Domain = () => {
 
-    // useEffect(()=>{
-    //     AOS.init({duration:2000})
-    // },[])
+    useEffect(()=>{
+        AOS.init()
+    },[])
 
   return (
-    <div className='domain-wrapper' id='domains'>
+    <div className='domain-wrapper' id='domains' data-aos="fade-down" data-aos-offset="-400" data-aos-duration="17
+    00">
       <h2 className='section-title'>Domains</h2>
         <div class="wrapper">
         <div class="card-container">
