@@ -30,15 +30,15 @@ function Home(){
                     
                     <div>
                         <img src={prize1}></img>
-                        <p>₹ 10,000</p>
+                        <p>₹ 20,000</p>
                     </div>
                     <div>
                         <img src={prize2}></img>
-                        <p>₹ 7,000</p>
+                        <p>₹ 10,000</p>
                     </div>
                     <div>
                         <img src={prize3}></img>
-                        <p>₹ 5,000</p>
+                        <p>₹ 7,500</p>
                     </div>
                     
                 </div>

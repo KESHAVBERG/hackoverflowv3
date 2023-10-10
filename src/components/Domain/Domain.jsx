@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import game from '../../images/domains/GAME.png'
 import block from '../../images/domains/block chain.png'
 import ai from '../../images/domains/AI.png'
@@ -6,11 +6,16 @@ import ar from '../../images/domains/AR VR.png'
 import web from '../../images/domains/web_secure.jpg'
 import surprise from '../../images/domains/secret 2.jpg'
 import rpa from '../../images/domains/uipath_rpa.png'
-
-
+// import AOS from 'aos'
+// import 'aos/dist/aos.css'
 import './Domain.css'
 
 const Domain = () => {
+
+    // useEffect(()=>{
+    //     AOS.init({duration:2000})
+    // },[])
+
   return (
     <div className='domain-wrapper' id='domains'>
       <h2 className='section-title'>Domains</h2>

@@ -10,7 +10,8 @@ import GoToTop from '../GoToTop/GoToTop'
 import FAQ from '../FAQ/FAQ'
 import Domain from '../Domain/Domain'
 import Navigationbar from '../Navbar/NavigationBar'
-import Gallery from '../Gallery/Gallery'
+import Gallery from '../GalleryPage/Gallery'
+import TitleSponsor from '../TitleSponsor/TitleSponsor'
 
 const HomePage = () => {
     const [scroll , setScroll ] = useState(0)
@@ -31,6 +32,7 @@ const HomePage = () => {
             <About />
             <Domain />
             <Timeline />
+            <TitleSponsor />
             <Sponsors />
             <StaffCoorinators />
             <StudentCoorinators />

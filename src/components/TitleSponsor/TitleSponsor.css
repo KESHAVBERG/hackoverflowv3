@@ -1,0 +1,18 @@
+.title-sponsor{
+    max-width:500px;
+    margin: 2.5em auto;
+    text-align: center;
+}
+.title-sponsor img{
+    width: 150px;
+}
+.title-sponsor .section-title{
+    color: white;
+    font-size: 2.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 1em 0;
+    margin-bottom: 0.75em;
+    letter-spacing: 0.08em;
+    text-shadow: 0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff,0 0 80px #b700ff,0 0 120px #b700ff;
+}

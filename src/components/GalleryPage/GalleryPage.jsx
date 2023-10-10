@@ -14,8 +14,16 @@ import g12 from '../../images/gallery/IMG_0796.webp'
 import g13 from '../../images/gallery/IMG_0813.webp'
 import g14 from '../../images/gallery/IMG_0833.webp'
 import g15 from '../../images/gallery/IMG_0888.webp'
+import { useEffect } from 'react'
 
-function Gallery (){
+function GalleryPage (){
+
+    useEffect(()=>{
+          window.scrollTo({
+            top: 0, 
+          })
+      })
+
     return (
         <div className="gallery-container">
             <h2 className='section-title'>Gallery</h2>
@@ -70,4 +78,4 @@ function Gallery (){
     )
 }
 
-export default Gallery
+export default GalleryPage

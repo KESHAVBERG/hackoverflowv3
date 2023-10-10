@@ -3,8 +3,6 @@
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
-    margin: 0.85em 0;
-    margin-bottom: 0;
     letter-spacing: 0.08em;
     text-shadow:  0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff,0 0 80px #b700ff,0 0 120px rgb(183, 0, 255);
 }
