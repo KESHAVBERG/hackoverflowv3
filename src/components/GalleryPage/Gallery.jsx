@@ -36,7 +36,7 @@ function Gallery (){
                     <img src={g2} alt="" />
                 </div>
             </div>
-            <Link to='/gallery'><div className="see-more-gallery">See More <span className='right-arrow-gallery'><FaChevronRight/></span></div></Link>
+            <Link style={{ textDecoration : "none"}} to='/gallery'><div className="see-more-gallery">See More <span className='right-arrow-gallery'><FaChevronRight/></span></div></Link>
         </div>
     )
 }

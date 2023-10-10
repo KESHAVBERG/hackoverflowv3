@@ -34,12 +34,14 @@ export const web = [
     {
         index : 1,
         name : "Syed Javith R",
-        year : "III"
+        year : "III",
+        insta : "https://instagram.com/syed_javith_03?igshid=YTQwZjQ0NmI0OA=="
     },
     {
         index : 2 ,
         name : "Thamizh Bharathi M",
-        year : "III"
+        year : "III",
+        insta : "https://instagram.com/thamizh.mtb?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
     },
     {
         index : 3 ,
@@ -91,28 +93,23 @@ export const content = [
 export const promo = [
     {
         index : 1 ,
-        name : "ABC",
+        name : "Karan Balaji R S",
         year : "IV"
     },
     {
         index : 2 ,
-        name : "ABC",
+        name : "Yashwant Ramesh",
         year : "IV"
     },
     {
         index : 3 ,
-        name : "ABC",
+        name : "Jeyapriyan M",
         year : "IV"
     },
     {
         index : 4 ,
-        name : "ABC",
+        name : "Keerthana J",
         year : "IV"
-    },
-    {
-        index : 5 ,
-        name : "ABC",
-        year : "IV"
-    },
+    }
     
 ]
