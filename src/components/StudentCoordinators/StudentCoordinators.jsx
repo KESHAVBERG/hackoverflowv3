@@ -1,10 +1,9 @@
 import './StudentCoordinators.css'
 import mustafa from '../../images/organizers/mustafa.jpeg'
-import suriya from '../../images/organizers/suriya.jpg'
+import suriya from '../../images/organizers/suriya.webp'
 import subash from '../../images/organizers/subash.jpg'
 import joshua from '../../images/organizers/joshua.jpg'
-import keerthana from '../../images/organizers/keerthana.jpg'
-import keshav from '../../images/teams/content/member1.webp'
+import keerthana from '../../images/organizers/keerthana.webp'
 
 import VanillaTilt from 'vanilla-tilt'
 import { useEffect } from 'react'
@@ -44,7 +43,7 @@ function StudentCoorinators(){
                         <div className="coordinator-info">
                             <h2>Keerthana</h2>
                             <p className="position">
-                                AIML Enthusiast
+                                President
                             </p>
                         </div>
                     </div>
@@ -53,7 +52,7 @@ function StudentCoorinators(){
                         <div className="coordinator-info">
                             <h2>Mustafa</h2>
                             <p className="position">
-                                Full Stack Developer
+                                Secretary
                             </p>
                         </div>
                     </div>
@@ -62,7 +61,7 @@ function StudentCoorinators(){
                         <div className="coordinator-info">
                             <h2>Suriya Prakash</h2>
                             <p className="position">
-                                Android App Developer
+                                Secretary
                             </p>
                         </div>
                     </div>
@@ -71,7 +70,7 @@ function StudentCoorinators(){
                         <div className="coordinator-info">
                             <h2>Subash B</h2>
                             <p className="position">
-                                Ethical Hacker
+                                Secretary
                             </p>
                         </div>
                     </div>
@@ -81,16 +80,16 @@ function StudentCoorinators(){
                         <div className="coordinator-info">
                             <h2>Joshua David</h2>
                             <p className="position">
-                                Ethical Hacker
+                                Secretary
                             </p>
                         </div>
                     </div>
                     <div className="coordinator">
-                        <img src={keshav} alt="" />
+                        <img src={keerthana} alt="" />
                         <div className="coordinator-info">
-                            <h2>keshav</h2>
+                            <h2>Keerthana</h2>
                             <p className="position">
-                                Developer
+                                President
                             </p>
                         </div>
                     </div>
@@ -99,7 +98,7 @@ function StudentCoorinators(){
                         <div className="coordinator-info">
                             <h2>Mustafa</h2>
                             <p className="position">
-                                Full Stack Developer
+                                Secretary
                             </p>
                         </div>
                     </div>
@@ -108,7 +107,7 @@ function StudentCoorinators(){
                         <div className="coordinator-info">
                             <h2>Suriya Prakash</h2>
                             <p className="position">
-                                Android App Developer
+                                Secretary
                             </p>
                         </div>
                     </div>
@@ -117,7 +116,7 @@ function StudentCoorinators(){
                         <div className="coordinator-info">
                             <h2>Subash B</h2>
                             <p className="position">
-                                Ethical Hacker
+                                Secretary
                             </p>
                         </div>
                     </div>
