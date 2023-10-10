@@ -24,11 +24,6 @@ export const TeamsPage = () => {
     <section className="carousel">
       <h2 className="title big-title"  id='members'>Members</h2>
       <div className="carousel__container">
-      {/* {
-        members.map((member)=> {
-          return <TeamsCard index={member.index} name={member.name} insta={member?.insta} year={member.year} class={'organisers'}/>
-        })
-      } */}
       <h2 className="title"  id='members'>Web Development Team</h2>
       {
         web.map((web)=>{
@@ -50,7 +45,7 @@ export const TeamsPage = () => {
       <h2 className="title"  id='members'>Promotion Team</h2>
       {
         promo.map((member)=> {
-          return <TeamsCard index={member.index} name={member.name} year={member.year} insta={member?.insta} class={'organisers'}/>
+          return <TeamsCard index={member.index} name={member.name} year={member.year} insta={member?.insta} class={'promo'}/>
         })
       }
       </div>
