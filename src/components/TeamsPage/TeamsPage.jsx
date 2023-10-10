@@ -45,7 +45,7 @@ export const TeamsPage = () => {
       <h2 className="title"  id='members'>Promotion Team</h2>
       {
         promo.map((member)=> {
-          return <TeamsCard index={member.index} name={member.name} year={member.year} insta={member?.insta} class={'promo'}/>
+          return <TeamsCard index={member.index} name={member.name} year={member.year} insta={member?.insta} class={'promotion'}/>
         })
       }
       </div>

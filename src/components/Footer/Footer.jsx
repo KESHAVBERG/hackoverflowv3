@@ -28,7 +28,7 @@ function Footer(){
             <li><a href='tel:9123588688'>Keerthana - 9123588688 </a></li>
               <li><a href='tel:9962338185'>Mustafa - 9962338185 </a></li>
               <li><a href='tel:9940415364'>Subhash - 9940415364 </a></li>
-              <li><a href='tel:9876543210'>Suriya Prakash - 9876543210 </a></li>
+              <li><a href='tel:9381004087'>Suriya Prakash - 9381004087 </a></li>
             </ul>
             
         </div>

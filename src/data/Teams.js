@@ -61,7 +61,8 @@ export const design = [
     {
         index : 2 ,
         name : "Tejashree",
-        year : "III"
+        year : "III",
+        insta : "https://instagram.com/_teju.x_?igshid=MzRlODBiNWFlZA=="
     },
     {
         index : 3 ,
@@ -79,37 +80,39 @@ export const design = [
 
 export const content = [
     {
+        index : 2,
+        name : "Monisha R",
+        year : "IV",
+        insta : "https://instagram.com/monisha._.__?igshid=NzZhOTFlYzFmZQ=="
+    },
+    {
         index : 1,
         name : "Keshav SR",
         year : "IV",
+        insta : "https://instagram.com/sr.keshav?igshid=NzZlODBkYWE4Ng=="
     },
-    {
-        index : 2,
-        name : "Monisha R",
-        year : "IV"
-    }
 ]
 
 export const promo = [
     {
         index : 1 ,
         name : "Karan Balaji R S",
-        year : "IV"
+        year : "III"
     },
     {
         index : 2 ,
         name : "Yashwant Ramesh",
-        year : "IV"
+        year : "III"
     },
     {
         index : 3 ,
         name : "Jeyapriyan M",
-        year : "IV"
+        year : "III"
     },
     {
         index : 4 ,
         name : "Keerthana J",
-        year : "IV"
+        year : "III"
     }
     
 ]

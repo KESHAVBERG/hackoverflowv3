@@ -1,12 +1,9 @@
 @font-face {
-    font-family: 'Autour One';
-    src: url('../../assets/AutourOne-Regular.ttf');
+    font-family: 'AudioWideRegular';
+    src: url('../../assets/Audiowide-Regular.ttf');
 }
-
-    
-    
 .timer-container{
-    font-family:'Autour One';
+    font-family: 'AudioWideRegular';
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -15,36 +12,8 @@
     align-items: center;
     gap: 2em;
 }
-/* .timer-container .timer-circle{
-    position: relative;
-    width: 150px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-/* .timer-container .timer-circle svg{
-    position: relative;
-    width: 150px;
-    height: 150px;
-    transform: rotate(270deg);
-} */
-/* .timer-container .timer-circle svg circle{
-    width: 100%;
-    height: 100%;
-    fill: transparent;
-    stroke-width: 6;
-    stroke: #282828;
-    stroke-linecap: round;
-    transform: translate(5px,5px);
-}
-.timer-container .timer-circle svg circle:nth-child(2){
-    stroke: var(--clr);
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
-} */
 .timer-container div{
-    /* position: absolute; */
+    font-family: 'AudioWideRegular';
     text-align: center;
     font-weight: 500;
     color: white;
@@ -58,27 +27,6 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
-/* .timer-container .dots{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    z-index: 1000;
-} */
-/* .timer-container .dots:before{
-    content: '';
-    position: absolute;
-    top: -28px;
-    width: 15px;
-    height: 15px;
-    background: var(--clr);
-    border-radius: 50%;
-    box-shadow: 0 0 20px var(--clr),0 0 60px var(--clr),0 0 80px var(--clr),0 0 100px var(--clr);
-} */
-
 @media screen and (max-width:1250px){
     .timer-container{
         justify-content: center;
@@ -92,3 +40,9 @@
         justify-content: space-evenly;
     }
 }
+/* 
+@media screen and (max-width : 1000px) {
+    .timer-container{
+        margin: 4em auto;
+    }
+} */

@@ -15,6 +15,7 @@ import g13 from '../../images/gallery/IMG_0813.webp'
 import g14 from '../../images/gallery/IMG_0833.webp'
 import g15 from '../../images/gallery/IMG_0888.webp'
 import { useEffect } from 'react'
+import Navigationbar from '../Navbar/NavigationBar'
 
 function GalleryPage (){
 
@@ -25,6 +26,8 @@ function GalleryPage (){
       })
 
     return (
+        <>
+        <Navigationbar />
         <div className="gallery-container">
             <h2 className='section-title'>Gallery</h2>
             <div className="gallery-grid-wrapper">
@@ -75,6 +78,7 @@ function GalleryPage (){
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

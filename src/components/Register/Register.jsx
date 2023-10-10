@@ -1,8 +1,10 @@
 import React from 'react'
 import './Register.css'
+import Navigationbar from '../Navbar/NavigationBar'
 export const Register = () => {
   return (
     <>
+    <Navigationbar />
     <div className='register-page flick'>
       <h3>About Hackoverflow:</h3>
       <p className='about-event'>"Dive into innovation at Hackoverflow 3.0! Since 2020, it's been the platform for creativity, and now it's back for the third time, bigger and better. This 24-hour event challenges you with real-world problems, so bring your A-game, build a dream team, and hack, hustle, and innovate your way to victory!".</p>
@@ -30,7 +32,7 @@ export const Register = () => {
 </li>
 <li>All participating teams will receive food and accommodation arrangements for the entire duration of the hackathon.</li>
       </ol>
-      <button className='btn btn-primary'>Register here</button>
+      <a href="https://forms.gle/cpyMe5ybWwwoXgmW7"><button className='btn btn-primary'>Register here</button></a>
     </div>
     </>
   )

@@ -32,6 +32,8 @@ function StudentCoorinators(){
         })
    },[])
 
+   const admin = { boxShadow: "0 0 10px 	#FFDF00 ,0 0 20px 	#FFDF00" };
+
     return (
         <div className="coordinators-container" id="coordinators">
             <h2 className='section-title'>Organizers</h2>
@@ -39,11 +41,20 @@ function StudentCoorinators(){
                 <div className="coord-icon" id='left'><FaAngleLeft /></div>
                 <div className="coordinators-wrap">
                 <div className="coordinator">
-                        <img src={keerthana} alt="" />
+                        <img src={keerthana} alt="" style={admin}/>
                         <div className="coordinator-info">
                             <h2>Keerthana</h2>
                             <p className="position">
                                 President
+                            </p>
+                        </div>
+                    </div>
+                    <div className="coordinator">
+                        <img src={suriya} alt="" />
+                        <div className="coordinator-info">
+                            <h2>Suriya Prakash</h2>
+                            <p className="position">
+                                Vice President
                             </p>
                         </div>
                     </div>
@@ -56,21 +67,13 @@ function StudentCoorinators(){
                             </p>
                         </div>
                     </div>
-                    <div className="coordinator">
-                        <img src={suriya} alt="" />
-                        <div className="coordinator-info">
-                            <h2>Suriya Prakash</h2>
-                            <p className="position">
-                                Secretary
-                            </p>
-                        </div>
-                    </div>
+                    
                     <div className="coordinator">
                         <img src={subash} alt="" />
                         <div className="coordinator-info">
-                            <h2>Subash B</h2>
+                            <h2>Subhash B</h2>
                             <p className="position">
-                                Secretary
+                                Treasurer
                             </p>
                         </div>
                     </div>
@@ -80,16 +83,25 @@ function StudentCoorinators(){
                         <div className="coordinator-info">
                             <h2>Joshua David</h2>
                             <p className="position">
-                                Secretary
+                                Student Coordinator
                             </p>
                         </div>
                     </div>
                     <div className="coordinator">
-                        <img src={keerthana} alt="" />
+                        <img src={keerthana} alt="" style={admin}/>
                         <div className="coordinator-info">
                             <h2>Keerthana</h2>
                             <p className="position">
                                 President
+                            </p>
+                        </div>
+                    </div>
+                    <div className="coordinator">
+                        <img src={suriya} alt="" />
+                        <div className="coordinator-info">
+                            <h2>Suriya Prakash</h2>
+                            <p className="position">
+                                Vice President
                             </p>
                         </div>
                     </div>
@@ -102,21 +114,13 @@ function StudentCoorinators(){
                             </p>
                         </div>
                     </div>
-                    <div className="coordinator">
-                        <img src={suriya} alt="" />
-                        <div className="coordinator-info">
-                            <h2>Suriya Prakash</h2>
-                            <p className="position">
-                                Secretary
-                            </p>
-                        </div>
-                    </div>
+                    
                     <div className="coordinator">
                         <img src={subash} alt="" />
                         <div className="coordinator-info">
                             <h2>Subash B</h2>
                             <p className="position">
-                                Secretary
+                                Treasurer
                             </p>
                         </div>
                     </div>
