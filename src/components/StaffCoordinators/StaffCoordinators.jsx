@@ -1,14 +1,12 @@
 import './StaffCoordinators.css'
-import mustafa from '../../images/organizers/mustafa.jpeg'
-import suriya from '../../images/organizers/suriya.jpg'
-import subash from '../../images/organizers/subash.jpg'
-import joshua from '../../images/organizers/joshua.jpg'
-import rhikshitha from '../../images/organizers/rhikshitha.jpeg'
-import manosanjay from '../../images/organizers/manosanjay.jpeg'
+import anand from '../../images/teachers/anand.jpg'
+import narayanan from '../../images/teachers/narayanan.jpg'
+import duraimurugan from '../../images/teachers/duraimurugan.jpg'
+import jagadeesh from '../../images/teachers/jagadeesh.jpg'
+
 import VanillaTilt from 'vanilla-tilt'
 import { useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import {FaAngleLeft, FaAngleRight , FaChevronRight} from 'react-icons/fa'
+import {FaAngleLeft, FaAngleRight } from 'react-icons/fa'
 
 function StaffCoorinators(){
 
@@ -39,102 +37,58 @@ function StaffCoorinators(){
                 <div className="org-icon" id='left'><FaAngleLeft /></div>
                 <div className="organizers-wrap">
                     <div className="organizer">
-                        <img src={mustafa} alt="" />
+                        <img src={duraimurugan} alt="" />
                         <div className="organizer-info">
-                            <h2>Mustafa</h2>
-                            <p className="position">
-                                Full Stack Developer
-                            </p>
+                            <h2>Dr.N.Duraimurugan</h2>
+                            
                         </div>
                     </div>
                     <div className="organizer">
-                        <img src={suriya} alt="" />
+                        <img src={narayanan} alt="" />
                         <div className="organizer-info">
-                            <h2>Suriya Prakash</h2>
-                            <p className="position">
-                                Android App Developer
-                            </p>
+                            <h2>Mr.K.E.Narayana</h2>
                         </div>
                     </div>
                     <div className="organizer">
-                        <img src={subash} alt="" />
+                        <img src={jagadeesh} alt="" />
                         <div className="organizer-info">
-                            <h2>Subash B</h2>
-                            <p className="position">
-                                Ethical Hacker
-                            </p>
+                            <h2>Dr.M.Jagadeesh</h2>
+                            
                         </div>
                     </div>
                     <div className="organizer">
-                        <img src={rhikshitha} alt="" />
+                        <img src={anand} alt="" />
                         <div className="organizer-info">
-                            <h2>Rhikshitha</h2>
-                            <p className="position">
-                                AIML Enthusiast
-                            </p>
+                            <h2>Dr.K.Anand</h2>
+                            
                         </div>
                     </div>
                     <div className="organizer">
-                        <img src={manosanjay} alt="" />
+                        <img src={duraimurugan} alt="" />
                         <div className="organizer-info">
-                            <h2>Mano Sanjay</h2>
-                            <p className="position">
-                                Android App Developer
-                            </p>
+                            <h2>Dr.N.Duraimurugan</h2>
+                            
                         </div>
                     </div>
                     <div className="organizer">
-                        <img src={joshua} alt="" />
+                        <img src={narayanan} alt="" />
                         <div className="organizer-info">
-                            <h2>Joshua David</h2>
-                            <p className="position">
-                                Ethical Hacker
-                            </p>
+                            <h2>Mr.K.E.Narayana</h2>
+                            
                         </div>
                     </div>
                     <div className="organizer">
-                        <img src={mustafa} alt="" />
+                        <img src={jagadeesh} alt="" />
                         <div className="organizer-info">
-                            <h2>Mustafa</h2>
-                            <p className="position">
-                                Full Stack Developer
-                            </p>
+                            <h2>Dr.M.Jagadeesh</h2>
+                           
                         </div>
                     </div>
                     <div className="organizer">
-                        <img src={suriya} alt="" />
+                        <img src={anand} alt="" />
                         <div className="organizer-info">
-                            <h2>Suriya Prakash</h2>
-                            <p className="position">
-                                Android App Developer
-                            </p>
-                        </div>
-                    </div>
-                    <div className="organizer">
-                        <img src={subash} alt="" />
-                        <div className="organizer-info">
-                            <h2>Subash B</h2>
-                            <p className="position">
-                                Ethical Hacker
-                            </p>
-                        </div>
-                    </div>
-                    <div className="organizer">
-                        <img src={rhikshitha} alt="" />
-                        <div className="organizer-info">
-                            <h2>Rhikshitha</h2>
-                            <p className="position">
-                                AIML Enthusiast
-                            </p>
-                        </div>
-                    </div>
-                    <div className="organizer">
-                        <img src={manosanjay} alt="" />
-                        <div className="organizer-info">
-                            <h2>Mano Sanjay</h2>
-                            <p className="position">
-                                Android App Developer
-                            </p>
+                            <h2>Dr.K.Anand</h2>
+                            <p className="position"></p>
                         </div>
                     </div>
                 </div>
