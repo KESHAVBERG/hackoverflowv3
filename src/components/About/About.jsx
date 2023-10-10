@@ -1,10 +1,15 @@
 import './About.css'
 import recLogo from '../../images/rec-circle.png'
 import hackLogo from '../../images/hack-circle.png'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 function About(){
+    useEffect(()=>{
+        AOS.init()
+    },[])
     return (
-        <div id='about-us' className='section-wrapper'>
+        <div id='about-us' className='section-wrapper' data-aos="fade-right" data-aos-duration="1700" data-aos-offset="-400" data-aos-once="true">
             <h2 className='section-title'>About Us</h2>
             <section id='about-section'>
                 <div className="center-box">
