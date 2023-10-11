@@ -31,8 +31,9 @@ function GalleryPage (){
         <div className="gallery-container">
             <h2 className='section-title'>Gallery</h2>
             <div className="gallery-grid-wrapper">
+                
                 <div>
-                    <img src={g1} alt="" />
+                    <img src={g5} alt="" />
                 </div>
                 <div>
                     <img src={g13} alt="" />
@@ -44,7 +45,7 @@ function GalleryPage (){
                     <img src={g7} alt="" />
                 </div>
                 <div>
-                    <img src={g5} alt="" />
+                    <img src={g1} alt="" />
                 </div>
                 <div className='tall'>
                     <img src={g9} alt="" /> 

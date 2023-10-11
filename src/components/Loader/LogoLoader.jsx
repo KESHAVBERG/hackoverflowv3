@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../images/loader_2.gif'
+import logo from '../../images/loader_3.gif'
 
 const LogoLoader = () => {
   return (

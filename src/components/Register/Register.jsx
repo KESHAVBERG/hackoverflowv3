@@ -21,6 +21,7 @@ export const Register = () => {
         <li>Teams are required to submit a GitHub repository or a hosted website of their existing project as the initial step.
 
 </li>
+<li>The registration fee is Rs.300 per head</li>
         <li>If available, teams are encouraged to submit a demo video or YouTube link showcasing their project for the initial assessment process.
 
 </li>
