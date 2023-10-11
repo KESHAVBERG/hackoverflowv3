@@ -16,7 +16,7 @@
 }
 .home-content{
     position: absolute;
-    top:8%;
+    top:5%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -74,7 +74,7 @@
 {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     font-size: .75rem;
     margin-top: 1.25rem;
 }
@@ -148,5 +148,18 @@
 @media screen and (max-width : 380px) {
     .home-container{
         min-height: 80vh;
+    }
+}
+@media screen and (min-width : 1000px) {
+    .register-btn{
+        margin: 4rem auto;
+    }
+    .home-container{
+        min-height: 80vh;
+    }
+}
+@media screen and (max-width : 450px) {
+    .home-container{
+        min-height: 58vh;
     }
 }

@@ -9,14 +9,14 @@ const Sponsors = () => {
         <div class="slide-track">
           {
             num.map((n)=>{
-              return <div class="slide">
+              return <div class="slide" id={n}>
               <img src={require(`../../images/sponsors/logo${n}.png`)} height="100" width="250" alt="" />
             </div>
             })
           }
           {
             num.map((n)=>{
-              return <div class="slide">
+              return <div class="slide" id={n}>
               <img src={require(`../../images/sponsors/logo${n}.png`)} height="100" width="250" alt="" />
             </div>
             })

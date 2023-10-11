@@ -1,13 +1,18 @@
 import './Timeline.css'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 function Timeline(){
+    useEffect(()=>{
+        AOS.init()
+    },[])
     
     return (
-        <div className="timeline-wrapper">
+        <div className="timeline-wrapper" data-aos="zoom-in-down" data-aos-offset="-400" data-aos-duration="1700">
         <h2 className='section-title'>Timeline</h2>
         <div className="timeline-container">
             <div className="tcard">
-                <div className="tcard-content">
+                <div className="tcard-content" >
                     <h1>Registration Commences</h1>
                     <p className="date">October 10, 2023</p>
                     {/* <p className="tcard-info">

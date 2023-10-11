@@ -4,7 +4,7 @@ import React from 'react'
 const MediaLinks = () => {
   return (
     <>
-    <a href=""><p className='register'>Register for event here</p></a>
+    <a href="https://forms.gle/cpyMe5ybWwwoXgmW7"><p className='register'>Register for event here</p></a>
     <div className='media'>
       <a href='mailto:hackoverflow@rajalakshmi.edu.in'><FaRegEnvelope/></a>
       <a href='https://instagram.com/hackoverflow_rec?igshid=MzRlODBiNWFlZA=='><FaInstagram /></a>

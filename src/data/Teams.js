@@ -34,12 +34,14 @@ export const web = [
     {
         index : 1,
         name : "Syed Javith R",
-        year : "III"
+        year : "III",
+        insta : "https://instagram.com/syed_javith_03?igshid=YTQwZjQ0NmI0OA=="
     },
     {
         index : 2 ,
         name : "Thamizh Bharathi M",
-        year : "III"
+        year : "III",
+        insta : "https://instagram.com/thamizh.mtb?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
     },
     {
         index : 3 ,
@@ -59,7 +61,8 @@ export const design = [
     {
         index : 2 ,
         name : "Tejashree",
-        year : "III"
+        year : "III",
+        insta : "https://instagram.com/_teju.x_?igshid=MzRlODBiNWFlZA=="
     },
     {
         index : 3 ,
@@ -77,42 +80,39 @@ export const design = [
 
 export const content = [
     {
+        index : 2,
+        name : "Monisha R",
+        year : "IV",
+        insta : "https://instagram.com/monisha._.__?igshid=NzZhOTFlYzFmZQ=="
+    },
+    {
         index : 1,
         name : "Keshav SR",
         year : "IV",
+        insta : "https://instagram.com/sr.keshav?igshid=NzZlODBkYWE4Ng=="
     },
-    {
-        index : 2,
-        name : "Monisha R",
-        year : "IV"
-    }
 ]
 
 export const promo = [
     {
         index : 1 ,
-        name : "ABC",
-        year : "IV"
+        name : "Karan Balaji R S",
+        year : "III"
     },
     {
         index : 2 ,
-        name : "ABC",
-        year : "IV"
+        name : "Yashwant Ramesh",
+        year : "III"
     },
     {
         index : 3 ,
-        name : "ABC",
-        year : "IV"
+        name : "Jeyapriyan M",
+        year : "III"
     },
     {
         index : 4 ,
-        name : "ABC",
-        year : "IV"
-    },
-    {
-        index : 5 ,
-        name : "ABC",
-        year : "IV"
-    },
+        name : "Keerthana J",
+        year : "III"
+    }
     
 ]
