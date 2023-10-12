@@ -9,9 +9,6 @@
 .home-container{
     text-align: center;
 }
-.home-content{
-    margin-top: 15%;
-}
 .home-particles{
     position: absolute;
     top:0;
@@ -104,7 +101,9 @@
     height: 100px;
 }
 
-
+.home-content{
+    margin-top: 5%;
+}
 @keyframes see-more {
     0%{
         transform: scale(1.0);
@@ -148,6 +147,9 @@
     }
     .home-content .hackoverflow-logo{
         width: 90vw;
+    }
+    .home-container{
+        margin-top: 20%;
     }
 }
 @media screen and (max-width : 380px) {

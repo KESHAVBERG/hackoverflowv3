@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Home(){
     return (
         <div className="home-container" id='home'>
-            <div className="home-content" style={{marginTop:"2em"}}>
+            <div className="home-content" >
                 <img src={rec} alt="" className='rec-logo'/>
                 <h1>Department of Computer Science and Engineering</h1>
                 <p>proudly presents</p>
