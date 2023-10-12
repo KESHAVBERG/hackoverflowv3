@@ -16,7 +16,6 @@ nav.navbar{
     top: 15px;
 }
 .nav-link{
-   
     --bs-nav-link-color : white
 }
 span.navbar-toggler-icon {

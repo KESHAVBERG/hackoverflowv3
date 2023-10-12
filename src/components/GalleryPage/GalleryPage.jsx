@@ -14,6 +14,7 @@ import g12 from '../../images/gallery/IMG_0796.webp'
 import g13 from '../../images/gallery/IMG_0813.webp'
 import g14 from '../../images/gallery/IMG_0833.webp'
 import g15 from '../../images/gallery/IMG_0888.webp'
+import g16 from '../../images/gallery/gallery-admin-grp.jpg'
 import { useEffect } from 'react'
 import Navigationbar from '../Navbar/NavigationBar'
 
@@ -31,20 +32,17 @@ function GalleryPage (){
         <div className="gallery-container">
             <h2 className='section-title'>Gallery</h2>
             <div className="gallery-grid-wrapper">
+                <div className='big'>
+                    <img src={g5} alt="" />
+                </div>
                 <div>
                     <img src={g1} alt="" />
-                </div>
-                <div>
-                    <img src={g13} alt="" />
-                </div>
-                <div className='tall'>
-                    <img src={g12} alt="" />
                 </div>
                 <div className='wide res-wide'>
                     <img src={g7} alt="" />
                 </div>
                 <div>
-                    <img src={g5} alt="" />
+                    <img src={g13} alt="" />
                 </div>
                 <div className='tall'>
                     <img src={g9} alt="" /> 
@@ -61,9 +59,6 @@ function GalleryPage (){
                 <div>
                     <img src={g10} alt="" />
                 </div>
-                <div className='big'>
-                    <img src={g3} alt="" />
-                </div>
                 <div >
                     <img src={g4} alt="" />
                 </div>
@@ -75,6 +70,15 @@ function GalleryPage (){
                 </div>
                 <div>
                     <img src={g2} alt="" />
+                </div>
+                <div className='big'>
+                    <img src={g3} alt="" />
+                </div>
+                <div className='tall'>
+                    <img src={g12} alt="" />
+                </div>
+                <div className='wide'>
+                    <img src={g16} alt="" />
                 </div>
             </div>
         </div>

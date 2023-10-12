@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import Home from '../Home/Home'
 import About from '../About/About' 
 import Sponsors from '../Sponsors/Sponsors'
-import StaffCoorinators from '../StaffCoordinators/StaffCoordinators'
-import StudentCoorinators from '../StudentCoordinators/StudentCoordinators'
 import Timeline from '../Timeline/Timeline'
 import ProgressBar from '../Progress/ProgressBar'
 import GoToTop from '../GoToTop/GoToTop'
@@ -12,6 +10,8 @@ import Domain from '../Domain/Domain'
 import Navigationbar from '../Navbar/NavigationBar'
 import Gallery from '../GalleryPage/Gallery'
 import TitleSponsor from '../TitleSponsor/TitleSponsor'
+import StudentOrganizers from '../StudentOrganizers/StudentOrganizers'
+import StaffOrganizers from '../StaffOrganizers/StaffOrganizers'
 
 const HomePage = () => {
     const [scroll , setScroll ] = useState(0)
@@ -34,8 +34,8 @@ const HomePage = () => {
             <Timeline />
             <TitleSponsor />
             <Sponsors />
-            <StaffCoorinators />
-            <StudentCoorinators />
+            <StaffOrganizers />
+            <StudentOrganizers />
             <Gallery />
             <FAQ />
     </div>
