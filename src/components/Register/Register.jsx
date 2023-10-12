@@ -7,9 +7,9 @@ export const Register = () => {
     <>
     <Navigationbar />
     <div className='register-page flick'>
-      <h3>About Hackoverflow:</h3>
+      <h3 className='glow'>About HackOverflow:</h3>
       <p className='about-event'>"Dive into innovation at Hackoverflow 3.0! Since 2020, it's been the platform for creativity, and now it's back for the third time, bigger and better. This 24-hour event challenges you with real-world problems, so bring your A-game, build a dream team, and hack, hustle, and innovate your way to victory!".</p>
-      <h3>Guidelines Of HackOverflow : </h3>
+      <h3 className='glow'>Guidelines Of HackOverflow : </h3>
      
       <ol>
         {

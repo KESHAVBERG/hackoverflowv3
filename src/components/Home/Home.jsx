@@ -12,21 +12,7 @@ function Home(){
                 <p>proudly presents</p>
                 <img src={logo} alt="" className='hackoverflow-logo' height={75} width={250}/>
                 <p>4<sup>th</sup> - 5 <sup>th</sup> November,2023 </p>
-                {/* <div className='prize'>
-                    <div>
-                        <img src={prize1}></img>
-                        <p>₹ 20,000</p>
-                    </div>
-                    <div>
-                        <img src={prize2}></img>
-                        <p>₹ 10,000</p>
-                    </div>
-                    <div>
-                        <img src={prize3}></img>
-                        <p>₹ 7,500</p>
-                    </div>
-                    
-                </div> */}
+                <p className='prize-text'>Cash prizes Worth 1 Lakh</p>
                 <Timer />
                 <Link to={'/register'} style={{textDecoration:'none'}}>
                     <div className="register-btn">

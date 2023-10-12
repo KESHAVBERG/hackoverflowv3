@@ -104,6 +104,16 @@
 .home-content{
     margin-top: 5%;
 }
+.prize-text{
+    margin-top: 16px;
+    text-shadow: 0 0 10px #4b30fd, 0 0 20px #4b30fd, 0 0 40px #4b30fd, 0 0 80px #4b30fd, 0 0 120px #4b30fd;
+    animation: blink-text 1.5s linear infinite;
+}
+@media screen and (max-width:500px){
+    .home-content h1{
+        font-size: 1.5rem;
+    }
+}
 @keyframes see-more {
     0%{
         transform: scale(1.0);
@@ -115,7 +125,17 @@
         transform: scale(1.0);
     }
 }
-
+@keyframes blink-text {
+    0% {
+     opacity: 0;
+    }
+    50% {
+     opacity: 1;
+    }
+    100% {
+     opacity: 0;
+    }
+}
 @media screen and (max-width:1250px){
     /* .home-content{
         width: 94vw;

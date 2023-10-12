@@ -2,10 +2,10 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import './StaffOrganizers.css'
-import anand from '../../images/teachers/anand.jpg'
-import narayanan from '../../images/teachers/narayanan.jpg'
-import duraimurugan from '../../images/teachers/duraimurugan.jpg'
-import jagadeesh from '../../images/teachers/jagadeesh.jpg'
+import anand from '../../images/teachers/anand.webp'
+import narayanan from '../../images/teachers/narayanan.webp'
+import duraimurugan from '../../images/teachers/duraimurugan.webp'
+import jagadeesh from '../../images/teachers/jagadeesh.webp'
 import hod from '../../images/teachers/hod.jpg'
 import { useEffect } from "react"
 import VanillaTilt from 'vanilla-tilt'

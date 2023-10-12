@@ -15,6 +15,7 @@ import g13 from '../../images/gallery/IMG_0813.webp'
 import g14 from '../../images/gallery/IMG_0833.webp'
 import g15 from '../../images/gallery/IMG_0888.webp'
 import g16 from '../../images/gallery/gallery-admin-grp.jpg'
+import g17 from '../../images/gallery/IMG_0801.jpg'
 import { useEffect } from 'react'
 import Navigationbar from '../Navbar/NavigationBar'
 
@@ -36,7 +37,7 @@ function GalleryPage (){
                     <img src={g5} alt="" />
                 </div>
                 <div>
-                    <img src={g5} alt="" />
+                    <img src={g17} alt="" />
                 </div>
                 <div className='wide res-wide'>
                     <img src={g7} alt="" />

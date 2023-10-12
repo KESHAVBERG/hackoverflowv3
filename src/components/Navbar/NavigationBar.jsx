@@ -16,6 +16,7 @@ function Navigationbar(){
             <Nav.Link href="/#home">Home</Nav.Link>
             <Nav.Link href="/#about-us">About Us</Nav.Link>
             <Nav.Link href="/#domains">Domains</Nav.Link>
+            <Nav.Link href="/register">Register</Nav.Link>
             <Nav.Link> <Link to='/gallery' style={{textDecoration:"none",color:"inherit"}}>Gallery</Link> </Nav.Link>
             <Nav.Link href="/#contact-us">Contact Us</Nav.Link>
           </Nav>
