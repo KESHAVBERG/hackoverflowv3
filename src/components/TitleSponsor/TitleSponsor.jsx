@@ -1,5 +1,5 @@
 import './TitleSponsor.css'
-import edkool from '../../images/sponsors/logo6.webp'
+import edkool from '../../images/sponsors/logo6.jpg'
 
 function TitleSponsor(){
     return (

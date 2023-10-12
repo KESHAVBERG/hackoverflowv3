@@ -3,7 +3,7 @@ import g2 from '../../images/gallery/IMG_0221.webp'
 import g3 from '../../images/gallery/IMG_0227.webp'
 import g4 from '../../images/gallery/IMG_0272.webp'
 import g5 from '../../images/gallery/IMG_0306.webp'
-import g10 from '../../images/gallery/IMG_0710.webp'
+import g10 from '../../images/gallery/IMG_0699.webp'
 import g13 from '../../images/gallery/IMG_0813.webp'
 import g14 from '../../images/gallery/IMG_0833.webp'
 import { Link } from 'react-router-dom'
@@ -15,14 +15,14 @@ function Gallery (){
             <h2 className='section-title'>Gallery</h2>
             <div className="gallery-grid-wrapper">
                 <div>
-                    <img src={g5} alt="" />
+                    <img src={g3} alt="" />
                 </div>
                 
                 <div>
                     <img src={g13} alt="" />
                 </div>
                 <div className='big'>
-                    <img src={g3} alt="" />
+                    <img src={g5} alt="" />
                 </div>
                 <div >
                     <img src={g4} alt="" />

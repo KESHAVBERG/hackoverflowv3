@@ -1,13 +1,22 @@
-.coordinators-container{
-    max-width: 96%;
-    margin: 2.5em auto;
-    margin-top: 0;
+.carousel-container{
+    margin: 2em auto;
+    max-width: 1340px;
     padding: 1em;
-    scroll-behavior: smooth;
-    cursor: pointer;
     text-align: center;
 }
-.coordinators-container .section-title{
+.carousel-content img{
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-content{
+    max-width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 16px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+}
+.carousel-container .section-title{
     color: white;
     font-size: 3rem;
     font-weight: 600;
@@ -17,49 +26,23 @@
     letter-spacing: 0.08em;
     text-shadow: 0 0 10px #b700ff,0 0 20px #b700ff,0 0 40px #b700ff,0 0 80px #b700ff,0 0 120px #b700ff;
 }
-.coordinators-main-wrapper{
-    display: flex;
-    align-items: center;
-    gap: 1em;
-}
-.coord-icon{
-    font-size: 3em;
-    cursor: pointer;
-}
-.coordinators-wrap{
-    display: flex;
-    flex-direction: row;
-    gap:2em;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-}
-.coordinator{
-    min-width: 300px;
-    text-align: center;
-    box-sizing: border-box;
-    background-color: rgba(255,255,255,0.2);
-    border-radius: 16px;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-    transform-style: preserve-3d;
-}
-.coordinator img{
+.carousel-content img{
     transform: translateZ(8px);
     width: 200px;
     height: 200px;
-    margin: 2em 0;
+    margin: 2em auto;
     margin-bottom: 1.75em;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 10px rgb(200, 0, 255),0 0 20px rgb(200,0,255);
 }
-.coordinator-info h2{
+.carousel-coordinator-info h2{
     color: white;
     font-weight: 900;
     letter-spacing: 2px;
     font-size: 1.4em;
 }
-.position{
+.carousel-position{
     color: white;
     font-size: 1.05em;
     padding-bottom: 1em;
@@ -70,6 +53,7 @@
     padding: 10px;
     text-align: center;
     margin: 10px;
+    margin-bottom: 0;
     height: 40px;
     animation: see-more 2s linear infinite;
 }
@@ -95,35 +79,46 @@ button a{
         transform: scale(1.0);
     }
 }
-@media screen and (max-width:400px){
-    .coordinators-container{
-        max-width: 100%;
-    }
-    .coordinator{
-        gap: 12px;
-    }
-    .coordinator{
-        min-width: 254px;
-    }
-    .coordinator img{
-        width: 180px;
-        height: 180px;
-    }
-    .coordinators-main-wrapper{
-        gap: 4px;
-    }
-    .coord-icon{
-        font-size: 1.5em;
+
+@media screen and (max-width:1300px){
+    .carousel-container{
+        max-width: 94%;
     }
 }
-@media screen and (max-width : 480px) {
-    button.coordinator-button{
-        margin-top: 3.25rem;
+@media screen and (max-width:1100px){
+    .carousel-container{
+        max-width: 98%;
+    }
+}
+@media screen and (max-width:1020px){
+    .carousel-container{
+        max-width: 85%;
+    }
+}
+@media screen and (max-width:800px){
+    .carousel-container{
+        max-width: 86%;
     }
 }
 
+@media screen and (max-width:640px){
+    .carousel-container{
+        max-width: 86%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:400px){
+    .carousel-content{
+        max-width: 254px;
+    }
+    .carousel-content img{
+        width: 180px;
+        height: 180px;
+    }
+}
 @media screen and (max-width:700px){
-    .coordinators-container .section-title{
+    .carousel-container .section-title{
         font-size: 2.5rem;
     }
 }

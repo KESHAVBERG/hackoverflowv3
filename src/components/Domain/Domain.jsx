@@ -81,7 +81,7 @@ const Domain = () => {
     
         <div class="card-container">
             <img src={rpa} alt=''/>
-            <h2>UiPath Automation</h2>
+            <h2>Robotic Process Automation</h2>
             <button type="button">Know more</button>
             <div class="descriptions">
                 <p>

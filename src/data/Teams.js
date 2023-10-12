@@ -97,22 +97,26 @@ export const promo = [
     {
         index : 1 ,
         name : "Karan Balaji R S",
-        year : "III"
+        year : "III",
+        insta : "https://www.instagram.com/karanbalajirs"
     },
     {
         index : 2 ,
         name : "Yashwant Ramesh",
-        year : "III"
+        year : "III",
+        insta : "https://instagram.com/yashwanth_ramesh_?igshid=OGQ5ZDc2ODk2ZA=="
     },
     {
         index : 3 ,
         name : "Jeyapriyan M",
-        year : "III"
+        year : "III",
+        insta : "https://www.instagram.com/jeyapriyanm/"
     },
     {
         index : 4 ,
         name : "Keerthana J",
-        year : "III"
+        year : "III",
+        insta : "https://www.instagram.com/itzz_keerthi_"
     }
     
 ]
