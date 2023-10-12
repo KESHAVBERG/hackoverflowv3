@@ -2,9 +2,15 @@
     font-family: 'AudioWideRegular';
     src: url('../../assets/Audiowide-Regular.ttf');
 }
-.home-container{
+/* .home-container{
     position: relative;
     min-height: 90vh;
+} */
+.home-container{
+    text-align: center;
+}
+.home-content{
+    margin-top: 15%;
 }
 .home-particles{
     position: absolute;
@@ -14,14 +20,14 @@
     right: 0;
     min-height: 100vh;
 }
-.home-content{
+/* .home-content{
     position: absolute;
     top:5%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     color: white;
-}
+} */
 .home-content .rec-logo{
     width: 20vw;
 }
@@ -57,7 +63,6 @@
     padding: 12px 30px;
     border: 1px solid white;
     color: transparent;
-    min-width: 25%;
     max-width: fit-content;
     text-align: center;
     margin: 2rem auto;
@@ -113,9 +118,9 @@
 }
 
 @media screen and (max-width:1250px){
-    .home-content{
+    /* .home-content{
         width: 94vw;
-    }
+    } */
     .home-content h1{
         font-size: 2.4rem;
     }
@@ -146,20 +151,20 @@
     }
 }
 @media screen and (max-width : 380px) {
-    .home-container{
+    /* .home-container{
         min-height: 80vh;
-    }
+    } */
 }
 @media screen and (min-width : 1000px) {
     .register-btn{
         margin: 4rem auto;
     }
-    .home-container{
+    /* .home-container{
         min-height: 80vh;
-    }
+    } */
 }
 @media screen and (max-width : 450px) {
-    .home-container{
+    /* .home-container{
         min-height: 58vh;
-    }
+    } */
 }

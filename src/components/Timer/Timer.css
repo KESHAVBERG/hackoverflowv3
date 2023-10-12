@@ -11,6 +11,7 @@
     margin: 1em 0;
     align-items: center;
     gap: 2em;
+    text-shadow: 0 0 10px #4b30fd, 0 0 20px #4b30fd, 0 0 40px #4b30fd, 0 0 80px #4b30fd, 0 0 120px #4b30fd;
 }
 .timer-container div{
     font-family: 'AudioWideRegular';
@@ -40,9 +41,11 @@
         justify-content: space-evenly;
     }
 }
-/* 
-@media screen and (max-width : 1000px) {
+
+@media screen and (min-width : 1000px) {
     .timer-container{
         margin: 4em auto;
+        width: 50%;
+        justify-content: space-evenly;
     }
-} */
+}

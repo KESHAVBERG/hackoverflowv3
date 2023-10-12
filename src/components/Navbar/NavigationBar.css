@@ -51,3 +51,8 @@ span.navbar-toggler-icon {
         z-index: 1000001;
     }
 }
+@media (min-width: 1400px){
+div.container{
+    max-width: 100%;
+ }
+}
