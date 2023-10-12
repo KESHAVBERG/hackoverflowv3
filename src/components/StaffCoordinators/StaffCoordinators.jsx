@@ -39,10 +39,10 @@ function StaffCoorinators(){
                 <div className="org-icon" id='left'><FaAngleLeft /></div>
                 <div className="organizers-wrap">
                 <div className="organizer">
-                        <img src={hod} alt="" style={admin}/>
+                        <img src={hod} alt="" />
                         <div className="organizer-info">
                             <h2>Dr.P.Kumar</h2>
-                            <p className="position">Faculty Coordinator</p>
+                            <p className="position">Convener</p>
                             
                         </div>
                     </div>
@@ -76,7 +76,7 @@ function StaffCoorinators(){
                         </div>
                     </div>
                     <div className="organizer">
-                        <img src={hod} alt="" style={admin}/>
+                        <img src={hod} alt="" />
                         <div className="organizer-info">
                             <h2>Dr.P.Kumar</h2>
                             <p className="position">Faculty Coordinator</p>

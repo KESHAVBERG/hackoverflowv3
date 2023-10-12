@@ -10,7 +10,7 @@ export const FAQ = () => {
         <Accordion>
           {
             faqData.map((faq,index)=>{
-              return <Accordion.Item eventKey={index}>
+              return <Accordion.Item key={index} eventKey={index}>
               <Accordion.Header>{faq.question}</Accordion.Header>
               <Accordion.Body>
               {faq.answer}

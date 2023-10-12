@@ -73,7 +73,7 @@ const Domain = () => {
             <button type="button">Know more</button>
             <div class="descriptions">
                 <p>
-                  Apps That Stand Strong: Where Safety Meets Seamless Functionality! Building stunning apps demands more than just code – an ironclad shield against cyber threats. Secure coding, encryption, and updates are our tools to protect your data and keep the application safe.             
+                  Apps That Stand Strong: Where Safety Meets Seamless Functionality! Building stunning apps demands more than just code - an ironclad shield against cyber threats. Secure coding, encryption, and updates are our tools to protect your data and keep the application safe.             
                 </p>
                 
             </div>

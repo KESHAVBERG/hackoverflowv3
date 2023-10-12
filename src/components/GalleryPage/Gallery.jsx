@@ -15,8 +15,9 @@ function Gallery (){
             <h2 className='section-title'>Gallery</h2>
             <div className="gallery-grid-wrapper">
                 <div>
-                    <img src={g14} alt="" />
+                    <img src={g5} alt="" />
                 </div>
+                
                 <div>
                     <img src={g13} alt="" />
                 </div>
@@ -27,7 +28,7 @@ function Gallery (){
                     <img src={g4} alt="" />
                 </div>
                 <div>
-                    <img src={g5} alt="" />
+                    <img src={g14} alt="" />
                 </div>
                 <div >
                     <img src={g10} alt="" />

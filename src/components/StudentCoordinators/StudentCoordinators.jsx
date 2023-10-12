@@ -41,7 +41,7 @@ function StudentCoorinators(){
                 <div className="coord-icon" id='left'><FaAngleLeft /></div>
                 <div className="coordinators-wrap">
                 <div className="coordinator">
-                        <img src={keerthana} alt="" style={admin}/>
+                        <img src={keerthana} alt="" />
                         <div className="coordinator-info">
                             <h2>Keerthana</h2>
                             <p className="position">
@@ -88,7 +88,7 @@ function StudentCoorinators(){
                         </div>
                     </div>
                     <div className="coordinator">
-                        <img src={keerthana} alt="" style={admin}/>
+                        <img src={keerthana} alt="" />
                         <div className="coordinator-info">
                             <h2>Keerthana</h2>
                             <p className="position">
