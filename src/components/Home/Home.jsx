@@ -3,15 +3,12 @@ import Timer from '../Timer/Timer';
 import logo from '../../images/logo.png'
 import rec from '../../images/rec_logo.png'
 import { Link } from 'react-router-dom';
-import prize1 from '../../images/prize1.png'
-import prize2 from '../../images/prize2.png'
-import prize3 from '../../images/prize3.png'
 function Home(){
     return (
         <div className="home-container" id='home'>
             <div className="home-content" style={{marginTop:"2em"}}>
                 <img src={rec} alt="" className='rec-logo'/>
-                <h1>Department of CSE</h1>
+                <h1>Department of Computer Science and Engineering</h1>
                 <p>proudly presents</p>
                 <img src={logo} alt="" className='hackoverflow-logo' height={75} width={250}/>
                 <p>4<sup>th</sup> - 5 <sup>th</sup> November,2023 </p>

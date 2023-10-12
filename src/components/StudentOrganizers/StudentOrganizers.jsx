@@ -2,10 +2,10 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import './StudentOrganizers.css'
-import mustafa from '../../images/organizers/mustafa.jpeg'
+import mustafa from '../../images/organizers/mustafa.webp'
 import suriya from '../../images/organizers/suriya.webp'
-import subash from '../../images/organizers/subash.jpg'
-import joshua from '../../images/organizers/joshua.jpg'
+import subash from '../../images/organizers/subash.webp'
+import joshua from '../../images/organizers/joshua.webp'
 import keerthana from '../../images/organizers/keerthana.webp'
 import { useEffect } from "react"
 import VanillaTilt from 'vanilla-tilt'

@@ -36,7 +36,7 @@ function GalleryPage (){
                     <img src={g5} alt="" />
                 </div>
                 <div>
-                    <img src={g1} alt="" />
+                    <img src={g5} alt="" />
                 </div>
                 <div className='wide res-wide'>
                     <img src={g7} alt="" />
