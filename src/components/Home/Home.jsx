@@ -3,9 +3,15 @@ import Timer from '../Timer/Timer';
 import logo from '../../images/logo.png'
 import rec from '../../images/rec_logo.png'
 import { Link } from 'react-router-dom';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 function Home(){
+    useEffect(()=>{
+        Aos.init()
+    },[])
     return (
-        <div className="home-container" id='home'>
+        <div className="home-container" id='home' data-aos="zoom-in" data-aos-duration="2500" data-aos-once="true" data-aos-offset="-400">
             <div className="home-content" >
                 <img src={rec} alt="" className='rec-logo'/>
                 <h1>Department of Computer Science and Engineering</h1>
