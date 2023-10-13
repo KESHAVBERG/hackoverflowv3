@@ -25,7 +25,15 @@ export const faqData = [
     },
     {
       question: "Will there be any transport facility provided for other college students?",
-      answer: "Participants will be able to board the buses that usually ply to the college. For transport details please visit https://rectransport.com/",
+      answer:  (
+        <p style={{color : "black"}}>
+          Participants will be able to board the buses that usually ply to the college. For transport details, please visit{" "}
+          <a href="https://rectransport.com/" target="_blank" rel="noopener noreferrer">
+            rectransport.com
+          </a>
+          .
+        </p>
+      ),
     },
     {
       question: "Will we be provided with refreshments?",
@@ -39,10 +47,10 @@ export const faqData = [
       question: "Is this a team event?",
       answer: "Yes, This is a team event where a minimum of 3 and a maximum of 4 members can participate in one team.",
     },
-    {
-      question: "Will I be provided with food and accommodation during the event?",
-      answer: "All participants of the hackathon will be served food. Hackers will also be provided with a dedicated space to rest and refresh.",
-    },
+    // {
+    //   question: "Will I be provided with food and accommodation during the event?",
+    //   answer: "All participants of the hackathon will be served food. Hackers will also be provided with a dedicated space to rest and refresh.",
+    // },
     {
       question: "Are pre-made products allowed?",
       answer: "No pre-made products are not allowed. The problem statement will be given on the day of the event, and they will be given 24 hours to develop a solution from scratch.",
