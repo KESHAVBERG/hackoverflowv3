@@ -1,7 +1,7 @@
 import './About.css'
 import recLogo from '../../images/rec-circle.png'
 import hackLogo from '../../images/hack-circle.png'
-import AOS from 'aos';
+import AOS from 'aos'; 
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 function About(){
@@ -10,7 +10,12 @@ function About(){
     },[])
     return (
         <div id='about-us' className='section-wrapper' data-aos="fade-right" data-aos-duration="1700" data-aos-offset="-400" data-aos-once="true">
-            <h2 className='section-title'>About Us</h2>
+                <div className='title-container'>
+                    <h2 className='water-title'>About Us</h2>
+                    <h2 className='water-title'>About Us</h2>
+                </div>
+                
+           
             <section id='about-section'>
                 <div className="center-box">
                     <div className={`animated-border-box-glow `}></div>
