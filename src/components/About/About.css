@@ -67,6 +67,7 @@
   #about-section{
     display: flex;
     overflow-x: hidden;
+   
   }
   .abt-hr{
     margin-top: 2.5rem;
@@ -115,6 +116,9 @@
       blink-caret .75s step-end infinite;
   }
 
+#about-us{
+  margin: 3rem auto;
+}
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }

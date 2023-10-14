@@ -8,11 +8,13 @@ import g14 from '../../images/gallery/IMG_0833.webp'
 import g15 from '../../images/gallery/IMG_0801.jpg'
 import { Link } from 'react-router-dom'
 import { FaChevronRight} from 'react-icons/fa'
+import WaterEffect from '../WaterEffect/WaterEffect'
 
 function Gallery (){
     return (
         <div className="gallery-container">
-            <h2 className='section-title'>Gallery</h2>
+            {/* <h2 className='section-title'>Gallery</h2> */}
+            <WaterEffect heading="Gallery"/>
             <div className="gallery-grid-wrapper">
                 <div>
                     <img src={g3} alt="" />
