@@ -29,7 +29,7 @@ const HomePage = () => {
             <ProgressBar scroll={scroll} />
             <GoToTop />
             <Home />
-            <About />
+            {/* <About /> */}
             <Domain />
             <Timeline />
             <TitleSponsor />
