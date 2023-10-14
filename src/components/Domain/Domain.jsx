@@ -19,7 +19,13 @@ const Domain = () => {
   return (
     <div className='domain-wrapper' id='domains' data-aos="fade-down" data-aos-offset="-400" data-aos-duration="17
     00">
-      <h2 className='section-title'>Domains</h2>
+      {/* <h2 className='section-title'>Domains</h2> */}
+      <section>
+                <div class="content">
+                    <h2 className='domain'>Domains</h2>
+                    <h2 className='domain'>Domains</h2>
+                </div>
+            </section>
         <div class="wrapper">
         <div class="card-container">
             <img src={ai} alt=''/>

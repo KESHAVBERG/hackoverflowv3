@@ -10,12 +10,22 @@ function About(){
     },[])
     return (
         <div id='about-us' className='section-wrapper' data-aos="fade-right" data-aos-duration="1700" data-aos-offset="-400" data-aos-once="true">
+<<<<<<< HEAD
                 <div className='title-container'>
                     <h2 className='water-title'>About Us</h2>
                     <h2 className='water-title'>About Us</h2>
                 </div>
                 
            
+=======
+            {/* <h2 className='section-title'>About Us</h2> */}
+            <section>
+                <div class="content">
+                    <h2 className='about-us'>About<span style={{visibility : "hidden"}}>_</span>Us</h2>
+                    <h2 className='about-us'>About<span style={{visibility : "hidden"}}>_</span>Us</h2>
+                </div>
+            </section>
+>>>>>>> 5f2954f9897ee250edb4747f2829b30d5848203e
             <section id='about-section'>
                 <div className="center-box">
                     <div className={`animated-border-box-glow `}></div>

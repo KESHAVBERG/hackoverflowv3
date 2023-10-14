@@ -9,7 +9,13 @@ function Timeline(){
     
     return (
         <div className="timeline-wrapper" data-aos="zoom-in-down" data-aos-offset="-400" data-aos-duration="1700">
-        <h2 className='section-title'>Timeline</h2>
+        {/* <h2 className='section-title'>Timeline</h2> */}
+        <section>
+                <div class="content">
+                    <h2 className='gallery'>TimeLine</h2>
+                    <h2 className='gallery'>TimeLine</h2>
+                </div>
+            </section>
         <div className="timeline-container">
             <div className="tcard">
                 <div className="tcard-content" >
