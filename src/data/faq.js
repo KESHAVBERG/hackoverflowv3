@@ -5,7 +5,7 @@ export const faqData = [
     },
     {
       question: "What is the registration fee?",
-      answer: "The registration fee is Rs. 300 for each member of the team.",
+      answer: "The registration fee is Rs. 300 for each member of the team. The shortlisted teams are only required to pay the registration fee.",
     },
     {
       question: "Is there any refund if I am not attending the event due to any unavoidable situation?",
@@ -63,5 +63,9 @@ export const faqData = [
       question: "Will there be certificates for the participants?",
       answer: "The teams selected for the finals will be given physical certificates and goodies. For other teams, E-Certificates would be provided.",
     },
+    {
+      question:"Can school students participate?",
+      answer:"Participants must be currently enrolled in either an undergraduate or postgraduate program and possess a valid college ID card."
+    }
   ];
   

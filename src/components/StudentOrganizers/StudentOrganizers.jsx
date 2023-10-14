@@ -11,6 +11,7 @@ import { useEffect } from "react"
 import VanillaTilt from 'vanilla-tilt'
 import { Link } from "react-router-dom"
 import {FaChevronRight} from 'react-icons/fa'
+import WaterEffect from "../WaterEffect/WaterEffect"
 
 const settings = {
   dots: true,
@@ -57,7 +58,8 @@ const StudentOrganizers = () => {
 
   return (
     <div className="carousel-container">
-      <h2 className='section-title'>Organizers</h2>
+      {/* <h2 className='section-title'>Organizers</h2> */}
+      <WaterEffect heading="Organizers"/>
       <Slider {...settings}>
         <div className="carousel-content">
           <img src={keerthana} alt=""/>

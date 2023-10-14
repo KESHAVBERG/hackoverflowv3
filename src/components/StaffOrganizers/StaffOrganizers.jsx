@@ -6,9 +6,10 @@ import anand from '../../images/teachers/anand.webp'
 import narayanan from '../../images/teachers/narayanan.webp'
 import duraimurugan from '../../images/teachers/duraimurugan.webp'
 import jagadeesh from '../../images/teachers/jagadeesh.webp'
-import hod from '../../images/teachers/hod.jpg'
+import hod from '../../images/teachers/hod.webp'
 import { useEffect } from "react"
 import VanillaTilt from 'vanilla-tilt'
+import WaterEffect from "../WaterEffect/WaterEffect"
 
 const settings = {
   dots: true,
@@ -55,7 +56,8 @@ const StaffOrganizers = () => {
 
   return (
     <div className="staff-carousel-container">
-      <h2 className='section-title'>Coordinators</h2>
+      {/* <h2 className='section-title'>Coordinators</h2> */}
+      <WaterEffect heading="Coordinators"/>
       <Slider {...settings}>
         <div className="staff-carousel-content">
           <img src={hod} alt=""/>

@@ -107,8 +107,13 @@
 .prize-text{
     margin-top: 16px;
     text-shadow: 0 0 10px #4b30fd, 0 0 20px #4b30fd, 0 0 40px #4b30fd, 0 0 80px #4b30fd, 0 0 120px #4b30fd;
-    /* animation: blink-text 1.5s linear infinite; */
-    font-weight: bold;
+    animation: blink-text 1.5s linear infinite;
+}
+p.small{
+    font-size: 1rem;
+}
+.home-content p{
+    font-family: 'AudioWideRegular';
 }
 
 /* check */
@@ -178,13 +183,13 @@
 }
 @keyframes blink-text {
     0% {
-     opacity: 0;
+     opacity: 1;
     }
     50% {
      opacity: 1;
     }
     100% {
-     opacity: 0;
+     opacity: 1;
     }
 }
 @media screen and (max-width:1250px){
@@ -192,8 +197,9 @@
         width: 94vw;
     } */
     .home-content h1{
-        font-size: 2.4rem;
+        font-size: 1rem;
     }
+    
 }
 @media screen and (max-width:1000px){
     .home-content .rec-logo{
@@ -202,14 +208,18 @@
 }
 @media screen and (max-width:800px){
     .home-content h1{
-        font-size: 2rem;
+        font-size: 1rem;
     }
-    .home-content p{
+    
+    /* .home-content p{
         font-size: 1.5rem;
+    } */
+    p.small{
+        font-size: 0.75rem;
     }
     .home-content .hackoverflow-logo{
-        height: 100px;
-        width: 70vw;
+        height: 150px;
+        width: 80vw;
     }
 }
 @media screen and (max-width:500px){
@@ -257,67 +267,4 @@
     top: 50%;
     width: 100%;
     animation: move linear 2000ms infinite;  
-  }
-  
-  @keyframes move {
-    0% {
-      text-shadow:
-        4px -4px 0 hsla(0, 100%, 50%, 1), 
-        3px -3px 0 hsla(0, 100%, 50%, 1), 
-        2px -2px 0 hsla(0, 100%, 50%, 1), 
-        1px -1px 0 hsla(0, 100%, 50%, 1),
-        -4px 4px 0 hsla(180, 100%, 50%, 1), 
-        -3px 3px 0 hsla(180, 100%, 50%, 1), 
-        -2px 2px 0 hsla(180, 100%, 50%, 1), 
-        -1px 1px 0 hsla(180, 100%, 50%, 1)
-      ;
-    }
-    25% {    
-      text-shadow:      
-        -4px -4px 0 hsla(180, 100%, 50%, 1), 
-        -3px -3px 0 hsla(180, 100%, 50%, 1), 
-        -2px -2px 0 hsla(180, 100%, 50%, 1), 
-        -1px -1px 0 hsla(180, 100%, 50%, 1),
-        4px 4px 0 hsla(0, 100%, 50%, 1), 
-        3px 3px 0 hsla(0, 100%, 50%, 1), 
-        2px 2px 0 hsla(0, 100%, 50%, 1), 
-        1px 1px 0 hsla(0, 100%, 50%, 1)      
-      ;
-    }
-    50% {
-      text-shadow:
-        -4px 4px 0 hsla(0, 100%, 50%, 1), 
-        -3px 3px 0 hsla(0, 100%, 50%, 1), 
-        -2px 2px 0 hsla(0, 100%, 50%, 1), 
-        -1px 1px 0 hsla(0, 100%, 50%, 1),
-        4px -4px 0 hsla(180, 100%, 50%, 1), 
-        3px -3px 0 hsla(180, 100%, 50%, 1), 
-        2px -2px 0 hsla(180, 100%, 50%, 1), 
-        1px -1px 0 hsla(180, 100%, 50%, 1)
-      ;
-    }
-    75% {
-      text-shadow:
-        4px 4px 0 hsla(180, 100%, 50%, 1), 
-        3px 3px 0 hsla(180, 100%, 50%, 1), 
-        2px 2px 0 hsla(180, 100%, 50%, 1), 
-        1px 1px 0 hsla(180, 100%, 50%, 1),
-        -4px -4px 0 hsla(0, 100%, 50%, 1), 
-        -3px -3px 0 hsla(0, 100%, 50%, 1), 
-        -2px -2px 0 hsla(0, 100%, 50%, 1), 
-        -1px -1px 0 hsla(0, 100%, 50%, 1)      
-      ;
-    }
-    100% {
-      text-shadow:
-        4px -4px 0 hsla(0, 100%, 50%, 1), 
-        3px -3px 0 hsla(0, 100%, 50%, 1), 
-        2px -2px 0 hsla(0, 100%, 50%, 1), 
-        1px -1px 0 hsla(0, 100%, 50%, 1),
-        -4px 4px 0 hsla(180, 100%, 50%, 1), 
-        -3px 3px 0 hsla(180, 100%, 50%, 1), 
-        -2px 2px 0 hsla(180, 100%, 50%, 1), 
-        -1px 1px 0 hsla(180, 100%, 50%, 1)
-      ;
-    }  
   }

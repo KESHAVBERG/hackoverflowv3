@@ -3,7 +3,7 @@ export const listItems = [
     "Teams must comprise a minimum of three members and can have a maximum of four members.",
     "Team members may represent the same or different colleges.",
     
-    "The registration fee is Rs.300 per head.",
+    "The registration fee is Rs. 300 for each member of the team. The shortlisted teams are only required to pay the registration fee.",
     "Teams are required to submit a GitHub repository or a hosted website of their existing project as the initial step.",
     "If available, teams are encouraged to submit a demo video or YouTube link showcasing their project for the initial assessment process.",
     "On the day of the event, 2-3 problem statements for each domain will be provided.",

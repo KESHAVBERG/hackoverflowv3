@@ -33,6 +33,7 @@
     position: relative;
     width: 100%;
     background-color: transparent;
+    margin: 3rem auto;
   }
   .slider::after {
     right: 0;

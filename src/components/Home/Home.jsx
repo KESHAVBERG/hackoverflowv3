@@ -15,7 +15,7 @@ function Home(){
             <div className="home-content" >
                 <img src={rec} alt="" className='rec-logo'/>
                 <h1>Department of Computer Science and Engineering</h1>
-                <p className='text'>proudly presents</p>
+                <p className='small'>proudly presents</p>
                 <img src={logo} alt="" className='hackoverflow-logo' height={75} width={250}/>
                 <p>4<sup>th</sup> - 5 <sup>th</sup> November,2023 </p>
                 <p className='prize-text'>Cash prizes Worth 1 Lakh</p>
