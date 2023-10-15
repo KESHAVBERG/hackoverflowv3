@@ -187,9 +187,6 @@ p.small{
     }
 }
 @media screen and (max-width:1250px){
-    /* .home-content{
-        width: 94vw;
-    } */
     .home-content h1{
         font-size: 1rem;
     }
@@ -204,10 +201,6 @@ p.small{
     .home-content h1{
         font-size: 1rem;
     }
-    
-    /* .home-content p{
-        font-size: 1.5rem;
-    } */
     p.small{
         font-size: 0.75rem;
     }
@@ -233,10 +226,6 @@ p.small{
         margin: 2rem auto;
     }
 }
-
-
-
-
 .prize-text
 {
    text-transform: uppercase;

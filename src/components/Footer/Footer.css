@@ -1,10 +1,7 @@
 footer{
-    /* background: url('../../images/Footer/footer_purple.jpg');
-     */
     background-color: rgb(33, 4, 50 , 0.6);
     padding: 20px;
     width: 100%;
-    /* opacity: 0.6; */
     color: white;
     line-height: 1.5;
 }

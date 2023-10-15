@@ -1,6 +1,5 @@
 .register-page{
     border: 2px solid white;
-    /* margin: 2rem auto; */
     padding: 2rem;
     text-align: left;
     animation: dimension 2s ease-in-out 1 alternate;
@@ -22,7 +21,6 @@
     text-align:center;
     border:5px solid rgb(183, 0, 255);
     width: 60%;
-    /* font-weight: bold; */
     margin: 4rem auto;
     border-radius:17.5px;
     -webkit-box-shadow: 0px 0px 7px 4px rgba(183, 0, 255,0.73);
@@ -45,7 +43,6 @@
 @media screen and (max-width : 430px) {
     .register-page{
         width: 90%;
-        /* font-size: 1rem; */
         padding: 0.5rem;
     }
     ol{

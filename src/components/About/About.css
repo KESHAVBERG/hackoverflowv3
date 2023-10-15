@@ -37,7 +37,6 @@
     width: calc(100% - 10px);
     height: calc(100% - 10px);
     background:  rgb(44, 41, 40);
-    /* background: linear-gradient(rgb(23, 8, 23,),rgb(23,8,23)); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -82,11 +81,6 @@
     text-align: justify;
     line-height: 1.75;
   }
-  /* .abt-content::first-letter
-  {
-    font-size: 2.15rem;
-    line-height: 1.5;
-  } */
 
 .hack-header
 {
@@ -95,38 +89,18 @@
     margin-left: 0.5em;
     gap: 10px;
 }
-.typewriter {
-    overflow: hidden; 
-    border-right: .15em solid orange; 
-    white-space: nowrap; 
-    margin: 0 auto; 
-    letter-spacing: .15em; 
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
 
 #about-us{
   margin: 3rem auto;
 }
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
-
 
   /* Media Queries */
-  @media screen and (max-width:1000px){
+@media screen and (max-width:1000px){
     .animated-border-box, .animated-border-box-glow{
       padding: 2.5rem;
       margin: auto 2rem;
     }
-  }
+}
 
 @media screen and (max-width:500px){
   .animated-border-box, .animated-border-box-glow{
