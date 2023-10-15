@@ -55,8 +55,8 @@ const StaffOrganizers = () => {
   },[])
 
   return (
-    <div className="staff-carousel-container">
-      {/* <h2 className='section-title'>Coordinators</h2> */}
+    <div className="staff-carousel-container" id="organisers">
+      
       <WaterEffect heading="Coordinators"/>
       <Slider {...settings}>
         <div className="staff-carousel-content">

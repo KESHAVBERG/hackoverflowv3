@@ -6,14 +6,12 @@ import g10 from '../../images/gallery/IMG_0699.webp'
 import g13 from '../../images/gallery/IMG_0813.webp'
 import g14 from '../../images/gallery/IMG_0833.webp'
 import g15 from '../../images/gallery/IMG_0801.jpg'
-import { Link } from 'react-router-dom'
-import { FaChevronRight} from 'react-icons/fa'
 import WaterEffect from '../WaterEffect/WaterEffect'
 
 function Gallery (){
     return (
-        <div className="gallery-container">
-            {/* <h2 className='section-title'>Gallery</h2> */}
+        <div className="gallery-container" id='gallery'>
+            
             <div style={{height:"1rem"}}></div>
             <WaterEffect heading="Gallery"/>
             <div style={{height:"1.5rem"}}></div>

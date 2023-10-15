@@ -14,7 +14,7 @@ const QuickLinks = () => {
             <ul className='col-lg-6'>
             <li><a href="/#organisers">Organisers</a></li>
                 <li><Link to={'/teams'}>Teams</Link></li>
-                <li><Link to='/gallery'>Gallery</Link></li>
+                <li><a href="/#gallery">Gallery</a></li>
             </ul>
             </div>
             
