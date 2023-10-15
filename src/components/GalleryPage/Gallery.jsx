@@ -14,7 +14,9 @@ function Gallery (){
     return (
         <div className="gallery-container">
             {/* <h2 className='section-title'>Gallery</h2> */}
+            <div style={{height:"1rem"}}></div>
             <WaterEffect heading="Gallery"/>
+            <div style={{height:"1.5rem"}}></div>
             <div className="gallery-grid-wrapper">
                 <div>
                     <img src={g3} alt="" />
@@ -39,7 +41,7 @@ function Gallery (){
                     <img src={g15} alt="" />
                 </div>
             </div>
-            <Link style={{ textDecoration : "none"}} to='/gallery'><div className="see-more-gallery">See More <span className='right-arrow-gallery'><FaChevronRight/></span></div></Link>
+            <div style={{height:"0.75rem"}}></div>
         </div>
     )
 }

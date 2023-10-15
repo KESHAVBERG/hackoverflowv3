@@ -9,6 +9,7 @@ export const FAQ = () => {
         {/* <h2 className='section-title'>FAQ</h2> */}
        <WaterEffect heading="FAQ" className="faq"/>
         <section id='FAQ'>
+        <div style={{height:"1rem"}}></div>
         <Accordion>
           {
             faqData.map((faq,index)=>{

@@ -12,6 +12,7 @@ const Sponsors = () => {
                     <h2 className='gallery'>Sponsors</h2>
                 </div>
             </section> */}
+            <div style={{height:"0.5rem"}}></div>
             <WaterEffect heading="Sponsors"/>
       <div class="slider">
         <div class="slide-track">
@@ -31,6 +32,7 @@ const Sponsors = () => {
           }
         </div>
       </div>
+      <div style={{height:"0.75rem"}}></div>
     </div>
   )
 }

@@ -25,7 +25,7 @@ const Domain = () => {
                     <h2 className='domain'>Domains</h2>
                     <h2 className='domain'>Domains</h2>
                 </div>
-            </section>
+            </section><div style={{height:"0.75rem"}}></div>
         <div class="wrapper">
         <div class="card-container">
             <img src={ai} alt=''/>
@@ -109,7 +109,7 @@ const Domain = () => {
         </div>
         
     </div>
-
+    <div style={{height:"0.75rem"}}></div>
 
     </div>
   )

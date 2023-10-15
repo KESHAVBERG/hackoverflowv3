@@ -2,6 +2,9 @@ body
 {
     overflow-x:hidden ;
 }
+.wrapper{
+    margin-top: 2rem !important;
+}
 .domain-wrapper{
     margin-top: 5em;
 }

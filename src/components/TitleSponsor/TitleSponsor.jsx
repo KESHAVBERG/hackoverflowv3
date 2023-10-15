@@ -11,6 +11,7 @@ function TitleSponsor(){
                     <h2 className='domain'>Title<span style={{visibility : "hidden"}}>_</span>Sponsors</h2>
                 </div>
             </section>
+            <div style={{height:"0.75rem"}}></div>
             <img src={edkool} alt="" />
         </div>
     )
