@@ -2,10 +2,7 @@
     font-family: 'AudioWideRegular';
     src: url('../../assets/Audiowide-Regular.ttf');
 }
-/* .home-container{
-    position: relative;
-    min-height: 90vh;
-} */
+
 .home-container{
     text-align: center;
 }
@@ -17,14 +14,7 @@
     right: 0;
     min-height: 100vh;
 }
-/* .home-content{
-    position: absolute;
-    top:5%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color: white;
-} */
+
 .home-content .rec-logo{
     width: 20vw;
 }
@@ -51,6 +41,7 @@
     margin-bottom: 0em;
     font-style: normal;
 }
+
 .home-content .hackoverflow-logo{
     width: 50vw;
     height: 125px;
@@ -104,16 +95,19 @@
 .home-content{
     margin-top: 5%;
 }
-/* .prize-text{
-    margin-top: 16px;
-    text-shadow: 0 0 10px #4b30fd, 0 0 20px #4b30fd, 0 0 40px #4b30fd, 0 0 80px #4b30fd, 0 0 120px #4b30fd;
-    animation: blink-text 1.5s linear infinite;
-} */
+
 p.small{
     font-size: 1rem;
 }
 .home-content p{
     font-family: 'AudioWideRegular';
+}
+
+.home-content .end-date
+{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 /* check */
@@ -233,24 +227,13 @@ p.small{
         margin-top: 20%;
     }
 }
-@media screen and (max-width : 380px) {
-    /* .home-container{
-        min-height: 80vh;
-    } */
-}
+
 @media screen and (min-width : 1000px) {
     .register-btn{
-        margin: 4rem auto;
+        margin: 2rem auto;
     }
-    /* .home-container{
-        min-height: 80vh;
-    } */
 }
-@media screen and (max-width : 450px) {
-    /* .home-container{
-        min-height: 58vh;
-    } */
-}
+
 
 
 

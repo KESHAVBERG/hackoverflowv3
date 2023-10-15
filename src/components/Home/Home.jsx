@@ -20,6 +20,7 @@ function Home(){
                 <p>4<sup>th</sup> - 5 <sup>th</sup> November,2023 </p>
                 <p className='prize-text'>Cash prizes Worth 1 Lakh</p>
                 <Timer />
+                <p className='end-date text-warning'>*Registration Ends on 20<sup className='text-warning'>th</sup> Oct</p>
                 <Link to={'/register'} style={{textDecoration:'none'}}>
                     <div className="register-btn">
                         Register
