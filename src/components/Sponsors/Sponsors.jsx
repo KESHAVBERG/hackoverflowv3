@@ -17,14 +17,14 @@ const Sponsors = () => {
         <div class="slide-track">
           {
             num.map((n)=>{
-              return <div class="slide" id={n}>
+              return <div class="slide" id={n} key={Math.random()}>
               <img src={require(`../../images/sponsors/logo${n}.webp`)} height="100" width="250" alt="" />
             </div>
             })
           }
           {
             num.map((n)=>{
-              return <div class="slide" id={n}>
+              return <div class="slide" id={n} key={Math.random()}>
               <img src={require(`../../images/sponsors/logo${n}.webp`)} height="100" width="250" alt="" />
             </div>
             })

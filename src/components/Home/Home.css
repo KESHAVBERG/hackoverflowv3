@@ -104,11 +104,11 @@
 .home-content{
     margin-top: 5%;
 }
-.prize-text{
+/* .prize-text{
     margin-top: 16px;
     text-shadow: 0 0 10px #4b30fd, 0 0 20px #4b30fd, 0 0 40px #4b30fd, 0 0 80px #4b30fd, 0 0 120px #4b30fd;
     animation: blink-text 1.5s linear infinite;
-}
+} */
 p.small{
     font-size: 1rem;
 }
@@ -254,17 +254,31 @@ p.small{
 
 
 
-.prize-text {
-    color: hsla(0, 0%, 0%, .9);
-    font: normal 140px Varela Round, sans-serif;
-    height: 140px;
-    left: 0;
-    letter-spacing: 5px;
-    margin: -80px 0 0 0;
-    position: absolute;
-    text-align: center;
-    text-transform: uppercase;
-    top: 50%;
-    width: 100%;
-    animation: move linear 2000ms infinite;  
+.prize-text
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
   }
+}
