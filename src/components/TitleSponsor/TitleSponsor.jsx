@@ -1,10 +1,10 @@
 import './TitleSponsor.css'
-import edkool from '../../images/sponsors/logo6.jpg'
+import edkool from '../../images/sponsors/logo6.webp'
 
 function TitleSponsor(){
     return (
         <div className="title-sponsor">
-            {/* <h2 className='section-title'>Title Sponsor</h2> */}
+            
             <section>
                 <div class="content">
                     <h2 className='domain'>Title<span style={{visibility : "hidden"}}>_</span>Sponsors</h2>

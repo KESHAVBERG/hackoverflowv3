@@ -8,7 +8,7 @@ const Timer = () => {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
-  const deadline = "November, 4, 2023";
+  const deadline = "October, 20, 2023";
 
 
   const getTime = () => {
