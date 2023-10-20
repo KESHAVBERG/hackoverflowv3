@@ -22,27 +22,24 @@ function Timeline(){
                 <div className="tcard-content" >
                     <h1>Registration Commences</h1>
                     <p className="date">October 10, 2023</p>
-                    {/* <p className="tcard-info">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores, soluta amet assumenda et illo minus possimus explicabo obcaecati fugiat facere alias dignissimos corrupti esse molestias voluptates, aliquid ratione optio error repellat fuga! Eius, commodi! error repellat fuga! Eius, commodi!
-                    </p> */}
                 </div>
             </div>
             <div className="tcard">
                 <div className="tcard-content">
                     <h1>Registration Deadline</h1>
-                    <p className="date">October 20, 2023</p>
+                    <p className="date">October 24, 2023</p>
                 </div>
             </div>
             <div className="tcard">
                 <div className="tcard-content">
                     <h1>Evaluation and Result announcement of Shortlisted teams</h1>
-                    <p className="date">October 21 - 22, 2023</p>
+                    <p className="date">October 25, 2023</p>
                 </div>
             </div>
             <div className="tcard">
                 <div className="tcard-content">
                     <h1>Registration and Payment Period for Shortlisted teams</h1>
-                    <p className="date">October 23 - 26, 2023</p>
+                    <p className="date">October 26 - 27, 2023</p>
                 </div>
             </div>
             <div className="tcard">

@@ -32,7 +32,7 @@ function Home(){
                 <p className='prize-text'>Cash prizes Worth 1 Lakh</p>
                 <Timer />
                 {showRegister?
-                <p className='end-date text-warning'>*Registration Ends on 25<sup className='text-warning'>th</sup> Oct</p>:
+                <p className='end-date text-warning'>*Registration Ends on 24<sup className='text-warning'>th</sup> Oct</p>:
                 <p className='end-date text-warning'>Registration Closed</p>}
                 <Link to={'/register'} style={{textDecoration:'none'}}>
                     <div className="register-btn">
