@@ -5,10 +5,21 @@ import rec from '../../images/rec_logo.png'
 import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 function Home(){
+    const [showRegister,setShowRegister]=useState(true)
     useEffect(()=>{
         Aos.init()
+        const date = new Date();
+        const day= date.getDate();
+        const month=date.getMonth();
+        if(month==10 || day>24){
+            setShowRegister(false)  
+        }
+        else{
+            setShowRegister(true)
+        }
+        console.log(date)
     },[])
     return (
         <div className="home-container" id='home' data-aos="zoom-in" data-aos-duration="2500" data-aos-once="true" data-aos-offset="-400">
@@ -20,7 +31,9 @@ function Home(){
                 <p>4<sup>th</sup> - 5 <sup>th</sup> November,2023 </p>
                 <p className='prize-text'>Cash prizes Worth 1 Lakh</p>
                 <Timer />
-                <p className='end-date text-warning'>*Registration Ends on 20<sup className='text-warning'>th</sup> Oct</p>
+                {showRegister?
+                <p className='end-date text-warning'>*Registration Ends on 25<sup className='text-warning'>th</sup> Oct</p>:
+                <p className='end-date text-warning'>Registration Closed</p>}
                 <Link to={'/register'} style={{textDecoration:'none'}}>
                     <div className="register-btn">
                         Register
