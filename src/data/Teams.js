@@ -117,6 +117,11 @@ export const promo = [
         name : "Keerthana J",
         year : "III",
         insta : "https://www.instagram.com/itzz_keerthi_"
+    },
+    {
+        index : 5 ,
+        name : "Harish D",
+        year : "III",
+        insta : "https://www.instagram.com/_.harishhr._/"
     }
-    
 ]

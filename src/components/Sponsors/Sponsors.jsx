@@ -2,7 +2,7 @@ import React from 'react'
 import './Sponsors.css'
 import WaterEffect from '../WaterEffect/WaterEffect'
 const Sponsors = () => {
-  const num = [1,2,7,3,4,5,8]
+  const num = [1,2,7,3,4,5,8,9]
   return (
     <div id='sponsors' className='sponsor-container'>
             <div style={{height:"0.5rem"}}></div>
